@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+        integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+        integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+        integrity="sha256-HAaDW5o2+LelybUhfuk0Zh2Vdk8Y2W2UeKmbaXhalfA=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Women's Watches</title>
+    <!-- <script>
+    setTimeout(wakeUpUser, 5000);
+
+    function wakeUpUser() {
+        alert("Are you going to stare at this boring page forever?");
+    }
+    </script> -->
+</head>
+<nav class="navbar navbar-expand-sm navbar-light bg-white border-bottom">
+    <div class="container">
+        <a href="index.html" class="navbar-brand">Supravi</a>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item dropdown menu-area">
+                    <a href="#" class="nav-link dropdown-toggle" id="mega-one" data-toggle="dropdown">Shop</a>
+                    <div class="dropdown-menu mega-area" aria-labelledby="mega-one">
+                        <div class="row">
+                            <div class="col-sm-6 col-lg-3">
+                                <h5>Women's Collection</h5>
+                                <a href="all_women_clothing.html" class="dropdown-item">All Women's Clothing</a>
+                                <a href="women_dresses.html" class="dropdown-item">Dresses</a>
+                                <a href="women_tops.html" class="dropdown-item">Tops</a>
+                                <a href="women_suits.html" class="dropdown-item">Suits</a>
+                                <a href="women_sweaters.html" class="dropdown-item">Sweaters</a>
+                                <a href="women_jackets.html" class="dropdown-item">Jackets</a>
+                                <a href="women_pants.html" class="dropdown-item">Pants</a>
+                                <a href="women_skirts.html" class="dropdown-item">Skirts</a>
+                            </div>
+                            <div class="col-sm-6 col-lg-3">
+                                <h5>Men's Collection</h5>
+                                <a href="all_men_clothing.html" class="dropdown-item">All Men's Clothing</a>
+                                <a href="men_shirts.html" class="dropdown-item">T-shirts</a>
+                                <a href="men_suits.html" class="dropdown-item">Suits</a>
+                                <a href="men_sweaters.html" class="dropdown-item">Hoodies & Sweaters</a>
+                                <a href="men_jackets.html" class="dropdown-item">Jackets</a>
+                                <a href="men_pants.html" class="dropdown-item">Pants</a>
+                                <a href="men_shorts.html" class="dropdown-item">Shorts</a>
+                            </div>
+                            <div class="col-sm-6 col-lg-3">
+                                <h5>Women Shoes</h5>
+                                <a href="women_boots.html" class="dropdown-item">Boots</a>
+                                <a href="women_heels.html" class="dropdown-item">Heels</a>
+                                <br>
+                                <h5>Men's Shoes</h5>
+                                <a href="men_sneakers.html" class="dropdown-item">Sneakers</a>
+                            </div>
+                            <div class="col-sm-6 col-lg-3">
+                                <h5>Women Accessories</h5>
+                                <a href="women_watches.html" class="dropdown-item">Watches</a>
+                                <a href="women_bags.html" class="dropdown-item">Bags</a>
+                                <br>
+                                <h5>Men Accessories</h5>
+                                <a href="men_watches.html" class="dropdown-item">Watches</a>
+                                <a href="men_bags.html" class="dropdown-item">Bags</a>
+                            </div>
+                            <div class="col-sm-12 col-md-12">
+                                <a class="text-center d-block text-light bg-dark py-2 mt-3" href="all_products.html"
+                                    class="dropdown-item">View All</a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+
+            <ul class="ml-auto mt-3 icons d-flex justify-content-center align-items-center">
+                <form action="search.html" method="POST" name="search" class="form-inline">
+                    <div class="form-group">
+                        <input class="form-control mr-2" type="search" name="search_bar" placeholder="Search"
+                            id="search_item" aria-label="Search">
+                        <button class="btn btn-outline-dark my-2 my-sm-0 mr-4" type="submit"
+                            name="search_button">Search</button>
+                    </div>
+                </form>
+
+                <div class="btn-group">
+                    <button class="btn btn-sm dropdown-toggle mr-3 bg-white border-none" type="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                        <i class="far fa-user"></i>
+                    </button>
+                    <div class="dropdown-menu">
+                        <a href="register.html" class="text-center text-dark d-block">Register</a> <br>
+                        <a href="login.html" class="text-center text-dark d-block">Login</a>
+                    </div>
+                </div>
+                <a href="cart.html" id="shopping-cart" class="mr-3"><i class="fas fa-shopping-cart"></i>
+                </a>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<main class="py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-4 col-lg-3 categories">
+                <div class="side-bar">
+                    <div class="widget-catagory mb-5">
+                        <h3 class="mb-2">Catergories</h3>
+                        <div class="catagories-menu">
+                            <ul class="menu-content">
+                                <h6 data-toggle="collapse" class="category" href="#clothingCollapse" role="button"
+                                    aria-expanded="false" aria-controls="clothingCollapse">Women Clothing</h6>
+                                <ul class="sub-menu collapse clothingCollapse" id="clothingCollapse">
+                                    <li>
+                                        <a href="women_dresses.html">Dresses</a>
+                                    </li>
+                                    <li>
+                                        <a href="women_tops.html">Tops</a>
+                                    </li>
+                                    <li>
+                                        <a href="women_suits.html">Suits</a>
+                                    </li>
+                                    <li>
+                                        <a href="women_sweaters.html">Sweaters</a>
+                                    </li>
+                                    <li>
+                                        <a href="women_jackets.html">Jackets</a>
+                                    </li>
+                                    <li>
+                                        <a href="women_pants.html">Pants</a>
+                                    </li>
+                                    <li>
+                                        <a href="women_skirts.html">Skirts</a>
+                                    </li>
+                                </ul>
+                            </ul>
+                            <ul class="menu-content collapse show">
+                                <h6 data-toggle="collapse" class="category" href="#shoesCollapse" role="button"
+                                    aria-expanded="false" aria-controls="shoesCollapse">Women Shoes</h6>
+                                <ul class="sub-menu collapse shoesCollapse" id="shoesCollapse">
+                                    <li>
+                                        <a href="women_boots.html">Boots</a>
+                                    </li>
+                                    <li>
+                                        <a href=women_heels.html#">Heels</a>
+                                    </li>
+                                </ul>
+
+                            </ul>
+                            <ul class="menu-content collapse show">
+                                <h6 data-toggle="collapse" class="category" href="#accessoriesCollapse" role="button"
+                                    aria-expanded="false" aria-controls="accessoriesCollapse">
+                                    Accessories</h6>
+                                <ul class="sub-menu collapse accessoriesCollapse" id="accessoriesCollapse">
+                                    <li>
+                                        <a href="women_bags.html">Bags</a>
+                                    </li>
+                                    <li>
+                                        <a href="women_watches.html">Watches</a>
+                                    </li>
+                                </ul>
+                            </ul>
+
+                            <!-- price filter -->
+                            <div class="price-filter">
+                                <h6 data-toggle="collapse" class="category" href="#priceCollapse" role="button"
+                                    aria-expanded="false" aria-controls="priceCollapse">Price</h6>
+                                <form action="" class="form-group collapse priceCollapse" id="priceCollapse">
+                                    <input type="radio" name="price" value="0-10" id="price"> $0 - $49
+                                    <br>
+                                    <input type="radio" name="price" value="50-75" id="price"> $50 - $75
+                                    <br>
+                                    <input type="radio" name="price" value="50-75" id="price"> $76 - $99
+                                    <br>
+                                    <input type="radio" name="price" value="50-75" id="price"> $100++
+                                    <br>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-8 col-lg-9">
+                <div class="row product-row">
+                    <div class="col-12 col-sm-12 col-md-4 col-lg-4 product">
+                        <form action="" method="POST">
+                            <div class="card mb-5">
+                                <a class="text-dark" href="#">
+                                    <img src="img/womens_watches1.jpeg" class="img-fluid w-100 product-img d-block"
+                                        alt="product-img">
+                                </a>
+                                <div class="card-section text-center">
+                                    <a class="text-dark" href="#">Crystal Stainless Steel Bracelet Watch 32mm</a>
+                                    <p class="product-price">$24.99</p>
+                                    <span class="btn btn-dark d-block">Add To Cart</span>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-4 col-lg-4 product">
+                        <form action="" method="POST">
+                            <div class="card mb-5">
+                                <a class="text-dark" href="#">
+                                    <img src="img/womens_watches2.jpeg" class="img-fluid w-100 product-img d-block"
+                                        alt="product-img">
+                                </a>
+                                <div class="card-section text-center">
+                                    <a class="text-dark" href="#">Rose Gold-Tone Bracelet Watch</a>
+                                    <p class="product-price">$19.99</p>
+                                    <span class="btn btn-dark d-block">Add To Cart</span>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-4 col-lg-4 product">
+                        <form action="" method="POST">
+                            <div class="card mb-5">
+                                <a class="text-dark" href="#">
+                                    <img src="img/womens_watches3.jpeg" class="img-fluid w-100 product-img d-block"
+                                        alt="product-img">
+                                </a>
+                                <div class="card-section text-center">
+                                    <a class="text-dark" href="#">Jesse Stainless Steel Bracelet Watch 34mm</a>
+                                    <p class="product-price">$20.99</p>
+                                    <span class="btn btn-dark d-block">Add To Cart</span>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-4 col-lg-4 product">
+                        <form action="" method="POST">
+                            <div class="card mb-5">
+                                <a class="text-dark" href="#">
+                                    <img src="img/womens_watches4.jpeg" class="img-fluid w-100 product-img d-block"
+                                        alt="product-img">
+                                </a>
+                                <div class="card-section text-center">
+                                    <a class="text-dark" href="#">Evil Eye Gold-Tone Watch</a>
+                                    <p class="product-price">$22.99</p>
+                                    <span class="btn btn-dark d-block">Add To Cart</span>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-4 col-lg-4 product">
+                        <form action="" method="POST">
+                            <div class="card mb-5">
+                                <a class="text-dark" href="#">
+                                    <img src="img/womens_watches5.jpeg" class="img-fluid w-100 product-img d-block"
+                                        alt="product-img">
+                                </a>
+                                <div class="card-section text-center">
+                                    <a class="text-dark" href="#">Mini Leather Strap Watch</a>
+                                    <p class="product-price">$25.99</p>
+                                    <span class="btn btn-dark d-block">Add To Cart</span>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+
+<footer id="main-footer" class="bg-black">
+    <div class="container">
+        <div class="row list-container text-white">
+            <div class="col-sm-3">
+                <ul>
+                    <h4>Catergories</h4>
+                    <ul class="list">
+                        <li class="nav-item"><a href="#">Women</a></li>
+                        <li class="nav-item"><a href="#">Men</a></li>
+                        <li class="nav-item"><a href="#">Shoes</a></li>
+                        <li class="nav-item"><a href="#">Accessories</a></li>
+                    </ul>
+                </ul>
+            </div>
+
+            <div class="col-sm-3">
+                <ul>
+                    <h4>Help</h4>
+                    <ul class="list">
+                        <li class="nav-item"><a href="#">Track Order</a></li>
+                        <li class="nav-item"><a href="#">Returns</a></li>
+                        <li class="nav-item"><a href="#">Shipping</a></li>
+                        <li class="nav-item"><a href="#">FAQs</a></li>
+                        <li class="nav-item"><a href="contact.html">Contact</a></li>
+                    </ul>
+                </ul>
+            </div>
+
+            <div class="col-sm-3">
+                <ul>
+                    <h4>Get In Touch</h4>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure, excepturi.</p>
+                    <ul class="list d-flex">
+                        <li class="nav-item"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                        <li class="nav-item"><a href="#"><i class="fab fa-twitter"></i></a></li>
+                        <li class="nav-item"><a href="#"><i class="fab fa-instagram"></i></a></li>
+                    </ul>
+                </ul>
+            </div>
+
+            <div class="col-sm-3">
+                <ul>
+                    <h4>Newsletter</h4>
+                    <input type="email" name="newsletter-email" id="newsletter-email" placeholder="Email..." size="30">
+                    <button class="btn btn-primary d-block w-50 mx-auto mt-5 rounded">Subscribe</button>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+
+</body>
+
+<script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous">
+</script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"
+    integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous">
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js"
+    integrity="sha256-Y1rRlwTzT5K5hhCBfAFWABD4cU13QGuRN6P5apfWzVs=" crossorigin="anonymous"></script>
+<script src="app.js"></script>
+
+</html>
