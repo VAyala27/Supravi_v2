@@ -21,6 +21,19 @@
             <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
                 <span class="navbar-toggler-icon"></span>
             </button>
+            <div class="btn-group user-menu mobile-view">
+                <button class="btn btn-sm dropdown-toggle mr-3 bg-white border-none" type="button"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                    <i class="far fa-user"></i>
+                </button>
+                <div class="dropdown-menu">
+                    <a href="register.html" class="text-center text-dark d-block">Register</a> <br>
+                    <a href="login.html" class="text-center text-dark d-block">Login</a>
+                </div>
+            </div>
+            <a href="cart.html" id="shopping-cart" class="mr-3 mobile-view"><i class="fas fa-shopping-cart"></i>
+                <span class='counter'>0</span>
+            </a>
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item">
@@ -87,7 +100,7 @@
                         </div>
                     </form>
 
-                    <div class="btn-group">
+                    <div class="btn-group mobile-none">
                         <button class="btn btn-sm dropdown-toggle mr-3 bg-white border-none" type="button"
                             data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
                             <i class="far fa-user"></i>
@@ -97,7 +110,7 @@
                             <a href="login.html" class="text-center text-dark d-block">Login</a>
                         </div>
                     </div>
-                    <a href="cart.html" id="shopping-cart" class="mr-3"><i class="fas fa-shopping-cart"></i>
+                    <a href="cart.html" id="shopping-cart" class="mr-3 mobile-none"><i class="fas fa-shopping-cart"></i>
                         <span class='counter'>0</span>
                     </a>
                 </ul>
@@ -183,20 +196,758 @@
                 </div>
                 <div class="col-md-8 col-lg-9">
                     <div class="row product-row">
-                        <?php
-                        $result = getDataCategory(18);
-                        while ($row = mysqli_fetch_assoc($result)) {
-                            Items($row['product_name'], $row['product_price'], $row['product_img'], $row['id']);
-                        }
-                        ?>
+                        <div class="col-12 col-sm-12 col-md-4 col-lg-4 product">
+                            <form action="" method="POST">
+                                <div class="card mb-5">
+                                    <a class="text-dark" href="#">
+                                        <img src="img/mens_shirt1.jpg" class="img-fluid w-100 product-img d-block"
+                                            alt="product-img">
+                                    </a>
+                                    <div class="card-section text-center">
+                                        <a class="text-dark" href="#">Flannel Shirt</a>
+                                        <p class="product-price">$19.99</p>
+                                        <span class="btn btn-dark d-block">Add To Cart</span>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-4 col-lg-4 product">
+                            <form action="" method="POST">
+                                <div class="card mb-5">
+                                    <a class="text-dark" href="#">
+                                        <img src="img/mens_shirt2.jpeg" class="img-fluid w-100 product-img d-block"
+                                            alt="product-img">
+                                    </a>
+                                    <div class="card-section text-center">
+                                        <a class="text-dark" href="#">Tech™ Short Sleeve</a>
+                                        <p class="product-price">$19.99</p>
+                                        <span class="btn btn-dark d-block">Add To Cart</span>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-4 col-lg-4 product">
+                            <form action="" method="POST">
+                                <div class="card mb-5">
+                                    <a class="text-dark" href="#">
+                                        <img src="img/mens_shirt3.jpeg" class="img-fluid w-100 product-img d-block"
+                                            alt="product-img">
+                                    </a>
+                                    <div class="card-section text-center">
+                                        <a class="text-dark" href="#">Soft Touch Stretch Henley</a>
+                                        <p class="product-price">$20.99</p>
+                                        <span class="btn btn-dark d-block">Add To Cart</span>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-4 col-lg-4 product">
+                            <form action="" method="POST">
+                                <div class="card mb-5">
+                                    <a class="text-dark" href="#">
+                                        <img src="img/mens_shirt4.jpeg" class="img-fluid w-100 product-img d-block"
+                                            alt="product-img">
+                                    </a>
+                                    <div class="card-section text-center">
+                                        <a class="text-dark" href="#">Ivy Logo T-Shirt</a>
+                                        <p class="product-price">$20.99</p>
+                                        <span class="btn btn-dark d-block">Add To Cart</span>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-4 col-lg-4 product">
+                            <form action="" method="POST">
+                                <div class="card mb-5">
+                                    <a class="text-dark" href="#">
+                                        <img src="img/mens_shirt5.jpeg" class="img-fluid w-100 product-img d-block"
+                                            alt="product-img">
+                                    </a>
+                                    <div class="card-section text-center">
+                                        <a class="text-dark" href="#">Drexel Strip Polo Shirt</a>
+                                        <p class="product-price">$22.99</p>
+                                        <span class="btn btn-dark d-block">Add To Cart</span>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-4 col-lg-4 product">
+                            <form action="" method="POST">
+                                <div class="card mb-5">
+                                    <a class="text-dark" href="#">
+                                        <img src="img/mens_shirt7.jpeg" class="img-fluid w-100 product-img d-block"
+                                            alt="product-img">
+                                    </a>
+                                    <div class="card-section text-center">
+                                        <a class="text-dark" href="#">Classic-Fit Ivy Polo</a>
+                                        <p class="product-price">$20.99</p>
+                                        <span class="btn btn-dark d-block">Add To Cart</span>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-4 col-lg-4 product">
+                            <form action="" method="POST">
+                                <div class="card mb-5">
+                                    <a class="text-dark" href="#">
+                                        <img src="img/mens_shirt6.jpeg" class="img-fluid w-100 product-img d-block"
+                                            alt="product-img">
+                                    </a>
+                                    <div class="card-section text-center">
+                                        <a class="text-dark" href="#">Hemenway Regular-Fit Stripe Shirt</a>
+                                        <p class="product-price">$25.99</p>
+                                        <span class="btn btn-dark d-block">Add To Cart</span>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-4 col-lg-4 product">
+                            <form action="" method="POST">
+                                <div class="card mb-5">
+                                    <a class="text-dark" href="#">
+                                        <img src="img/men_suit1.jpeg" class="img-fluid w-100 product-img d-block"
+                                            alt="product-img">
+                                    </a>
+                                    <div class="card-section text-center">
+                                        <a class="text-dark" href="#">Classic-Fit Solid Ultraflex Suit Separates</a>
+                                        <p class="product-price">$125.00</p>
+                                        <span class="btn btn-dark d-block">Add To Cart</span>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-4 col-lg-4 product">
+                            <form action="" method="POST">
+                                <div class="card mb-5">
+                                    <a class="text-dark" href="#">
+                                        <img src="img/men_suit2.jpeg" class="img-fluid w-100 product-img d-block"
+                                            alt="product-img">
+                                    </a>
+                                    <div class="card-section text-center">
+                                        <a class="text-dark" href="#">Stretch Performance Solid Slim-Fit Suit
+                                            Separates</a>
+                                        <p class="product-price">$129.99</p>
+                                        <span class="btn btn-dark d-block">Add To Cart</span>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-4 col-lg-4 product">
+                            <form action="" method="POST">
+                                <div class="card mb-5">
+                                    <a class="text-dark" href="#">
+                                        <img src="img/men_suit3.jpeg" class="img-fluid w-100 product-img d-block"
+                                            alt="product-img">
+                                    </a>
+                                    <div class="card-section text-center">
+                                        <a class="text-dark" href="#">Solid Ultraflex Classic-Fit Suit Separates</a>
+                                        <p class="product-price">$125.00</p>
+                                        <span class="btn btn-dark d-block">Add To Cart</span>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-4 col-lg-4 product">
+                            <form action="" method="POST">
+                                <div class="card mb-5">
+                                    <a class="text-dark" href="#">
+                                        <img src="img/men_suit4.jpeg" class="img-fluid w-100 product-img d-block"
+                                            alt="product-img">
+                                    </a>
+                                    <div class="card-section text-center">
+                                        <a class="text-dark" href="#">Unlisted Solid Stretch Slim-Fit Suit</a>
+                                        <p class="product-price">$130.00</p>
+                                        <span class="btn btn-dark d-block">Add To Cart</span>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-4 col-lg-4 product">
+                            <form action="" method="POST">
+                                <div class="card mb-5">
+                                    <a class="text-dark" href="#">
+                                        <img src="img/men_suit5.jpeg" class="img-fluid w-100 product-img d-block"
+                                            alt="product-img">
+                                    </a>
+                                    <div class="card-section text-center">
+                                        <a class="text-dark" href="#">Slim-Fit Gray/Brown Plaid Suit Separates</a>
+                                        <p class="product-price">$120.00</p>
+                                        <span class="btn btn-dark d-block">Add To Cart</span>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-4 col-lg-4 product">
+                            <form action="" method="POST">
+                                <div class="card mb-5">
+                                    <a class="text-dark" href="#">
+                                        <img src="img/men_hoodie1.jpeg" class="img-fluid w-100 product-img d-block"
+                                            alt="product-img">
+                                    </a>
+                                    <div class="card-section text-center">
+                                        <a class="text-dark" href="#">Signature Fleece Hoodie</a>
+                                        <p class="product-price">$40.00</p>
+                                        <span class="btn btn-dark d-block">Add To Cart</span>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-4 col-lg-4 product">
+                            <form action="" method="POST">
+                                <div class="card mb-5">
+                                    <a class="text-dark" href="#">
+                                        <img src="img/men_hoodie2.jpeg" class="img-fluid w-100 product-img d-block"
+                                            alt="product-img">
+                                    </a>
+                                    <div class="card-section text-center">
+                                        <a class="text-dark" href="#">Powerblend Fleece Hoodie</a>
+                                        <p class="product-price">$35.99</p>
+                                        <span class="btn btn-dark d-block">Add To Cart</span>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-4 col-lg-4 product">
+                            <form action="" method="POST">
+                                <div class="card mb-5">
+                                    <a class="text-dark" href="#">
+                                        <img src="img/men_hoodie3.jpeg" class="img-fluid w-100 product-img d-block"
+                                            alt="product-img">
+                                    </a>
+                                    <div class="card-section text-center">
+                                        <a class="text-dark" href="#">Mesh Hoodie</a>
+                                        <p class="product-price">$32.99</p>
+                                        <span class="btn btn-dark d-block">Add To Cart</span>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-4 col-lg-4 product">
+                            <form action="" method="POST">
+                                <div class="card mb-5">
+                                    <a class="text-dark" href="#">
+                                        <img src="img/men_sweater1.jpeg" class="img-fluid w-100 product-img d-block"
+                                            alt="product-img">
+                                    </a>
+                                    <div class="card-section text-center">
+                                        <a class="text-dark" href="#">Pima Cable Quarter-Zip Sweater</a>
+                                        <p class="product-price">$30.00</p>
+                                        <span class="btn btn-dark d-block">Add To Cart</span>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-4 col-lg-4 product">
+                            <form action="" method="POST">
+                                <div class="card mb-5">
+                                    <a class="text-dark" href="#">
+                                        <img src="img/men_sweater2.jpeg" class="img-fluid w-100 product-img d-block"
+                                            alt="product-img">
+                                    </a>
+                                    <div class="card-section text-center">
+                                        <a class="text-dark" href="#">Pima Cable Quarter-Zip Sweater</a>
+                                        <p class="product-price">$35.99</p>
+                                        <span class="btn btn-dark d-block">Add To Cart</span>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-4 col-lg-4 product">
+                            <form action="" method="POST">
+                                <div class="card mb-5">
+                                    <a class="text-dark" href="#">
+                                        <img src="img/men_jacket1.jpeg" class="img-fluid w-100 product-img d-block"
+                                            alt="product-img">
+                                    </a>
+                                    <div class="card-section text-center">
+                                        <a class="text-dark" href="#">Michael Kors Perforated Faux-Leather Moto
+                                            Jacket</a>
+                                        <p class="product-price">$112.50</p>
+                                        <span class="btn btn-dark d-block">Add To Cart</span>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-4 col-lg-4 product">
+                            <form action="" method="POST">
+                                <div class="card mb-5">
+                                    <a class="text-dark" href="#">
+                                        <img src="img/men_jacket2.jpeg" class="img-fluid w-100 product-img d-block"
+                                            alt="product-img">
+                                    </a>
+                                    <div class="card-section text-center">
+                                        <a class="text-dark" href="#">Two Pocket Hooded Trucker Jacket</a>
+                                        <p class="product-price">$112.50</p>
+                                        <span class="btn btn-dark d-block">Add To Cart</span>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-4 col-lg-4 product">
+                            <form action="" method="POST">
+                                <div class="card mb-5">
+                                    <a class="text-dark" href="#">
+                                        <img src="img/men_jacket3.jpeg" class="img-fluid w-100 product-img d-block"
+                                            alt="product-img">
+                                    </a>
+                                    <div class="card-section text-center">
+                                        <a class="text-dark" href="#">Luke Wool-Blend Classic-Fit Peacoat</a>
+                                        <p class="product-price">$125.00</p>
+                                        <span class="btn btn-dark d-block">Add To Cart</span>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-4 col-lg-4 product">
+                            <form action="" method="POST">
+                                <div class="card mb-5">
+                                    <a class="text-dark" href="#">
+                                        <img src="img/men_jacket4.jpeg" class="img-fluid w-100 product-img d-block"
+                                            alt="product-img">
+                                    </a>
+                                    <div class="card-section text-center">
+                                        <a class="text-dark" href="#">Long Snorkel Coat</a>
+                                        <p class="product-price">$175.00</p>
+                                        <span class="btn btn-dark d-block">Add To Cart</span>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-4 col-lg-4 product">
+                            <form action="" method="POST">
+                                <div class="card mb-5">
+                                    <a class="text-dark" href="#">
+                                        <img src="img/men_jacket5.jpeg" class="img-fluid w-100 product-img d-block"
+                                            alt="product-img">
+                                    </a>
+                                    <div class="card-section text-center">
+                                        <a class="text-dark" href="#">Bateman Jacket</a>
+                                        <p class="product-price">$90.00</p>
+                                        <span class="btn btn-dark d-block">Add To Cart</span>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-4 col-lg-4 product">
+                            <form action="" method="POST">
+                                <div class="card mb-5">
+                                    <a class="text-dark" href="#">
+                                        <img src="img/mens_bottoms2.jpeg" class="img-fluid w-100 product-img d-block"
+                                            alt="product-img">
+                                    </a>
+                                    <div class="card-section text-center">
+                                        <a class="text-dark" href="#">Lux Cottons Slim Fit Pants Tee</a>
+                                        <p class="product-price">$32.99</p>
+                                        <span class="btn btn-dark d-block">Add To Cart</span>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-4 col-lg-4 product">
+                            <form action="" method="POST">
+                                <div class="card mb-5">
+                                    <a class="text-dark" href="#">
+                                        <img src="img/mens_bottoms3.jpeg" class="img-fluid w-100 product-img d-block"
+                                            alt="product-img">
+                                    </a>
+                                    <div class="card-section text-center">
+                                        <a class="text-dark" href="#">Microtwill Ultraflex Dress Pants</a>
+                                        <p class="product-price">$25.99</p>
+                                        <span class="btn btn-dark d-block">Add To Cart</span>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-4 col-lg-4 product">
+                            <form action="" method="POST">
+                                <div class="card mb-5">
+                                    <a class="text-dark" href="#">
+                                        <img src="img/mens_bottoms4.jpeg" class="img-fluid w-100 product-img d-block"
+                                            alt="product-img">
+                                    </a>
+                                    <div class="card-section text-center">
+                                        <a class="text-dark" href="#">100% Wool Double-Reverse Dress Pants</a>
+                                        <p class="product-price">$25.99</p>
+                                        <span class="btn btn-dark d-block">Add To Cart</span>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-4 col-lg-4 product">
+                            <form action="" method="POST">
+                                <div class="card mb-5">
+                                    <a class="text-dark" href="#">
+                                        <img src="img/mens_bottoms1.jpeg" class="img-fluid w-100 product-img d-block"
+                                            alt="product-img">
+                                    </a>
+                                    <div class="card-section text-center">
+                                        <a class="text-dark" href="#">Skinny-Fit Suit Pants</a>
+                                        <p class="product-price">$30.99</p>
+                                        <span class="btn btn-dark d-block">Add To Cart</span>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-4 col-lg-4 product">
+                            <form action="" method="POST">
+                                <div class="card mb-5">
+                                    <a class="text-dark" href="#">
+                                        <img src="img/mens_bottoms6.jpeg" class="img-fluid w-100 product-img d-block"
+                                            alt="product-img">
+                                    </a>
+                                    <div class="card-section text-center">
+                                        <a class="text-dark" href="#">Classic-Fit Jogger Pants</a>
+                                        <p class="product-price">$30.99</p>
+                                        <span class="btn btn-dark d-block">Add To Cart</span>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-4 col-lg-4 product">
+                            <form action="" method="POST">
+                                <div class="card mb-5">
+                                    <a class="text-dark" href="#">
+                                        <img src="img/mens_bottoms8_midnight.jpg"
+                                            class="img-fluid w-100 product-img d-block" alt="product-img">
+                                    </a>
+                                    <div class="card-section text-center">
+                                        <a class="text-dark" href="#">Logo Fleece Joggers</a>
+                                        <p class="product-price">$24.99</p>
+                                        <span class="btn btn-dark d-block">Add To Cart</span>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-4 col-lg-4 product">
+                            <form action="" method="POST">
+                                <div class="card mb-5">
+                                    <a class="text-dark" href="#">
+                                        <img src="img/shorts1.jpeg" class="img-fluid w-100 product-img d-block"
+                                            alt="product-img">
+                                    </a>
+                                    <div class="card-section text-center">
+                                        <a class="text-dark" href="#">Classic Flight Cargo 14" Shorts</a>
+                                        <p class="product-price">$45.99</p>
+                                        <span class="btn btn-dark d-block">Add To Cart</span>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-4 col-lg-4 product">
+                            <form action="" method="POST">
+                                <div class="card mb-5">
+                                    <a class="text-dark" href="#">
+                                        <img src="img/shorts2.jpeg" class="img-fluid w-100 product-img d-block"
+                                            alt="product-img">
+                                    </a>
+                                    <div class="card-section text-center">
+                                        <a class="text-dark" href="#">MVP Collections Big & Tall Print Drawstring
+                                            Shorts</a>
+                                        <p class="product-price">$50.00</p>
+                                        <span class="btn btn-dark d-block">Add To Cart</span>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-4 col-lg-4 product">
+                            <form action="" method="POST">
+                                <div class="card mb-5">
+                                    <a class="text-dark" href="#">
+                                        <img src="img/shorts3.jpeg" class="img-fluid w-100 product-img d-block"
+                                            alt="product-img">
+                                    </a>
+                                    <div class="card-section text-center">
+                                        <a class="text-dark" href="#">Relaxed Fit Camouflage Cotton Cargo Shorts</a>
+                                        <p class="product-price">$45.99</p>
+                                        <span class="btn btn-dark d-block">Add To Cart</span>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-4 col-lg-4 product">
+                            <form action="" method="POST">
+                                <div class="card mb-5">
+                                    <a class="text-dark" href="#">
+                                        <img src="img/shorts4.jpeg" class="img-fluid w-100 product-img d-block"
+                                            alt="product-img">
+                                    </a>
+                                    <div class="card-section text-center">
+                                        <a class="text-dark" href="#">Fleece Shorts</a>
+                                        <p class="product-price">$45.00</p>
+                                        <span class="btn btn-dark d-block">Add To Cart</span>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-4 col-lg-4 product">
+                            <form action="" method="POST">
+                                <div class="card mb-5">
+                                    <a class="text-dark" href="#">
+                                        <img src="img/shorts5.jpeg" class="img-fluid w-100 product-img d-block"
+                                            alt="product-img">
+                                    </a>
+                                    <div class="card-section text-center">
+                                        <a class="text-dark" href="#">TH Flex Stretch 9" Shorts</a>
+                                        <p class="product-price">$45.99</p>
+                                        <span class="btn btn-dark d-block">Add To Cart</span>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-4 col-lg-4 product">
+                            <form action="" method="POST">
+                                <div class="card mb-5">
+                                    <a class="text-dark" href="#">
+                                        <img src="img/men_sneakers1.jpeg" class="img-fluid w-100 product-img d-block"
+                                            alt="product-img">
+                                    </a>
+                                    <div class="card-section text-center">
+                                        <a class="text-dark" href="#">Air Max Excee Running Sneakers</a>
+                                        <p class="product-price">$70.00</p>
+                                        <span class="btn btn-dark d-block">Add To Cart</span>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-4 col-lg-4 product">
+                            <form action="" method="POST">
+                                <div class="card mb-5">
+                                    <a class="text-dark" href="#">
+                                        <img src="img/men_sneakers2.jpeg" class="img-fluid w-100 product-img d-block"
+                                            alt="product-img">
+                                    </a>
+                                    <div class="card-section text-center">
+                                        <a class="text-dark" href="#">009 Casual Sneakers</a>
+                                        <p class="product-price">$45.00</p>
+                                        <span class="btn btn-dark d-block">Add To Cart</span>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-4 col-lg-4 product">
+                            <form action="" method="POST">
+                                <div class="card mb-5">
+                                    <a class="text-dark" href="#">
+                                        <img src="img/men_sneakers3.jpeg" class="img-fluid w-100 product-img d-block"
+                                            alt="product-img">
+                                    </a>
+                                    <div class="card-section text-center">
+                                        <a class="text-dark" href="#">X_PLR Casual Sneakers</a>
+                                        <p class="product-price">$45.99</p>
+                                        <span class="btn btn-dark d-block">Add To Cart</span>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-4 col-lg-4 product">
+                            <form action="" method="POST">
+                                <div class="card mb-5">
+                                    <a class="text-dark" href="#">
+                                        <img src="img/men_sneakers4.jpeg" class="img-fluid w-100 product-img d-block"
+                                            alt="product-img">
+                                    </a>
+                                    <div class="card-section text-center">
+                                        <a class="text-dark" href="#">Shox R4 Running Sneakers</a>
+                                        <p class="product-price">$50.00</p>
+                                        <span class="btn btn-dark d-block">Add To Cart</span>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-4 col-lg-4 product">
+                            <form action="" method="POST">
+                                <div class="card mb-5">
+                                    <a class="text-dark" href="#">
+                                        <img src="img/men_sneakers5.jpg" class="img-fluid w-100 product-img d-block"
+                                            alt="product-img">
+                                    </a>
+                                    <div class="card-section text-center">
+                                        <a class="text-dark" href="#">Jordan Jumpman 2020</a>
+                                        <p class="product-price">$65.99</p>
+                                        <span class="btn btn-dark d-block">Add To Cart</span>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-4 col-lg-4 product">
+                            <form action="" method="POST">
+                                <div class="card mb-5">
+                                    <a class="text-dark" href="#">
+                                        <img src="img/mens_bags1.jpeg" class="img-fluid w-100 product-img d-block"
+                                            alt="product-img">
+                                    </a>
+                                    <div class="card-section text-center">
+                                        <a class="text-dark" href="#">Slingpack</a>
+                                        <p class="product-price">$60.99</p>
+                                        <span class="btn btn-dark d-block">Add To Cart</span>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-4 col-lg-4 product">
+                            <form action="" method="POST">
+                                <div class="card mb-5">
+                                    <a class="text-dark" href="#">
+                                        <img src="img/mens_bags2.jpeg" class="img-fluid w-100 product-img d-block"
+                                            alt="product-img">
+                                    </a>
+                                    <div class="card-section text-center">
+                                        <a class="text-dark" href="#">Expandable Waist Pack</a>
+                                        <p class="product-price">$59.99</p>
+                                        <span class="btn btn-dark d-block">Add To Cart</span>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-4 col-lg-4 product">
+                            <form action="" method="POST">
+                                <div class="card mb-5">
+                                    <a class="text-dark" href="#">
+                                        <img src="img/mens_bags3.jpeg" class="img-fluid w-100 product-img d-block"
+                                            alt="product-img">
+                                    </a>
+                                    <div class="card-section text-center">
+                                        <a class="text-dark" href="#">Hoops Elite Pro Backpack</a>
+                                        <p class="product-price">$59.99</p>
+                                        <span class="btn btn-dark d-block">Add To Cart</span>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-4 col-lg-4 product">
+                            <form action="" method="POST">
+                                <div class="card mb-5">
+                                    <a class="text-dark" href="#">
+                                        <img src="img/mens_bags4.jpeg" class="img-fluid w-100 product-img d-block"
+                                            alt="product-img">
+                                    </a>
+                                    <div class="card-section text-center">
+                                        <a class="text-dark" href="#">Alexander Backpack</a>
+                                        <p class="product-price">$30.99</p>
+                                        <span class="btn btn-dark d-block">Add To Cart</span>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-4 col-lg-4 product">
+                            <form action="" method="POST">
+                                <div class="card mb-5">
+                                    <a class="text-dark" href="#">
+                                        <img src="img/mens_watches1.jpeg" class="img-fluid w-100 product-img d-block"
+                                            alt="product-img">
+                                    </a>
+                                    <div class="card-section text-center">
+                                        <a class="text-dark" href="#">The Minimalist Brown Leather Strap Watch 44mm</a>
+                                        <p class="product-price">$24.99</p>
+                                        <span class="btn btn-dark d-block">Add To Cart</span>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-4 col-lg-4 product">
+                            <form action="" method="POST">
+                                <div class="card mb-5">
+                                    <a class="text-dark" href="#">
+                                        <img src="img/mens_watches2.jpeg" class="img-fluid w-100 product-img d-block"
+                                            alt="product-img">
+                                    </a>
+                                    <div class="card-section text-center">
+                                        <a class="text-dark" href="#">Chronograph Chief Black Watch</a>
+                                        <p class="product-price">$59.99</p>
+                                        <span class="btn btn-dark d-block">Add To Cart</span>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-4 col-lg-4 product">
+                            <form action="" method="POST">
+                                <div class="card mb-5">
+                                    <a class="text-dark" href="#">
+                                        <img src="img/mens_watches3.jpeg" class="img-fluid w-100 product-img d-block"
+                                            alt="product-img">
+                                    </a>
+                                    <div class="card-section text-center">
+                                        <a class="text-dark" href="#">Chronograph Stainless Steel Watch</a>
+                                        <p class="product-price">$59.99</p>
+                                        <span class="btn btn-dark d-block">Add To Cart</span>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-4 col-lg-4 product">
+                            <form action="" method="POST">
+                                <div class="card mb-5">
+                                    <a class="text-dark" href="#">
+                                        <img src="img/mens_watches6.jpeg" class="img-fluid w-100 product-img d-block"
+                                            alt="product-img">
+                                    </a>
+                                    <div class="card-section text-center">
+                                        <a class="text-dark" href="#">Citizen Promaster Diver Mens Blue Strap Watch </a>
+                                        <p class="product-price">$124.99</p>
+                                        <span class="btn btn-dark d-block">Add To Cart</span>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </main>
-    <?php
-    include 'include/footer.html';
-    ?>
+    <footer id="main-footer" class="bg-black">
+        <div class="container">
+            <div class="row list-container text-white">
+                <div class="col-sm-3">
+                    <ul>
+                        <h4>Catergories</h4>
+                        <ul class="list">
+                            <li class="nav-item"><a href="#">Women</a></li>
+                            <li class="nav-item"><a href="#">Men</a></li>
+                            <li class="nav-item"><a href="#">Shoes</a></li>
+                            <li class="nav-item"><a href="#">Accessories</a></li>
+                        </ul>
+                    </ul>
+                </div>
+
+                <div class="col-sm-3">
+                    <ul>
+                        <h4>Help</h4>
+                        <ul class="list">
+                            <li class="nav-item"><a href="#">Track Order</a></li>
+                            <li class="nav-item"><a href="#">Returns</a></li>
+                            <li class="nav-item"><a href="#">Shipping</a></li>
+                            <li class="nav-item"><a href="#">FAQs</a></li>
+                            <li class="nav-item"><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </ul>
+                </div>
+
+                <div class="col-sm-3">
+                    <ul>
+                        <h4>Get In Touch</h4>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure, excepturi.</p>
+                        <ul class="list d-flex">
+                            <li class="nav-item"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                            <li class="nav-item"><a href="#"><i class="fab fa-twitter"></i></a></li>
+                            <li class="nav-item"><a href="#"><i class="fab fa-instagram"></i></a></li>
+                        </ul>
+                    </ul>
+                </div>
+
+                <div class="col-sm-3">
+                    <ul>
+                        <h4>Newsletter</h4>
+                        <input type="email" name="newsletter-email" id="newsletter-email" placeholder="Email..."
+                            size="30">
+                        <button class="btn btn-primary d-block w-50 mx-auto mt-5 rounded">Subscribe</button>
+                    </ul>
+                </div>
+                <div class="col-sm-12">
+                    <p class="font-size-16 text-center">&copy; VictorAyala <span id="year"></span></p>
+                </div>
+            </div>
+        </div>
+    </footer>
 
 </body>
 

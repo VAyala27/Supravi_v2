@@ -699,7 +699,8 @@ main {
   }
 
   .form-group{
-    align-items: center;
+    display: flex;
+    align-items: center !important;
   }
 
   .search input {

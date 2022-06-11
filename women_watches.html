@@ -26,6 +26,19 @@
         <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
             <span class="navbar-toggler-icon"></span>
         </button>
+        <div class="btn-group user-menu mobile-view">
+            <button class="btn btn-sm dropdown-toggle mr-3 bg-white border-none" type="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="true">
+                <i class="far fa-user"></i>
+            </button>
+            <div class="dropdown-menu">
+                <a href="register.html" class="text-center text-dark d-block">Register</a> <br>
+                <a href="login.html" class="text-center text-dark d-block">Login</a>
+            </div>
+        </div>
+        <a href="cart.html" id="shopping-cart" class="mr-3 mobile-view"><i class="fas fa-shopping-cart"></i>
+            <span class='counter'>0</span>
+        </a>
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item">
@@ -92,7 +105,7 @@
                     </div>
                 </form>
 
-                <div class="btn-group">
+                <div class="btn-group mobile-none">
                     <button class="btn btn-sm dropdown-toggle mr-3 bg-white border-none" type="button"
                         data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
                         <i class="far fa-user"></i>
@@ -102,7 +115,7 @@
                         <a href="login.html" class="text-center text-dark d-block">Login</a>
                     </div>
                 </div>
-                <a href="cart.html" id="shopping-cart" class="mr-3"><i class="fas fa-shopping-cart"></i>
+                <a href="cart.html" id="shopping-cart" class="mr-3 mobile-none"><i class="fas fa-shopping-cart"></i>
                     <span class='counter'>0</span>
                 </a>
             </ul>
@@ -321,10 +334,12 @@
                     <button class="btn btn-primary d-block w-50 mx-auto mt-5 rounded">Subscribe</button>
                 </ul>
             </div>
+            <div class="col-sm-12">
+                <p class="font-size-16 text-center">&copy; VictorAyala <span id="year"></span></p>
+            </div>
         </div>
     </div>
 </footer>
-
 </body>
 
 <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="

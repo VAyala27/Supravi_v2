@@ -21,6 +21,19 @@
             <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
                 <span class="navbar-toggler-icon"></span>
             </button>
+            <div class="btn-group user-menu mobile-view">
+                <button class="btn btn-sm dropdown-toggle mr-3 bg-white border-none" type="button"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                    <i class="far fa-user"></i>
+                </button>
+                <div class="dropdown-menu">
+                    <a href="register.html" class="text-center text-dark d-block">Register</a> <br>
+                    <a href="login.html" class="text-center text-dark d-block">Login</a>
+                </div>
+            </div>
+            <a href="cart.html" id="shopping-cart" class="mr-3 mobile-view"><i class="fas fa-shopping-cart"></i>
+                <span class='counter'>0</span>
+            </a>
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item">
@@ -87,7 +100,7 @@
                         </div>
                     </form>
 
-                    <div class="btn-group">
+                    <div class="btn-group mobile-none">
                         <button class="btn btn-sm dropdown-toggle mr-3 bg-white border-none" type="button"
                             data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
                             <i class="far fa-user"></i>
@@ -97,7 +110,7 @@
                             <a href="login.html" class="text-center text-dark d-block">Login</a>
                         </div>
                     </div>
-                    <a href="cart.html" id="shopping-cart" class="mr-3"><i class="fas fa-shopping-cart"></i>
+                    <a href="cart.html" id="shopping-cart" class="mr-3 mobile-none"><i class="fas fa-shopping-cart"></i>
                         <span class='counter'>0</span>
                     </a>
                 </ul>
@@ -1791,9 +1804,60 @@
         </div>
     </main>
 
-    <?php
-    include 'include/footer.html';
-    ?>
+    <footer id="main-footer" class="bg-black">
+        <div class="container">
+            <div class="row list-container text-white">
+                <div class="col-sm-3">
+                    <ul>
+                        <h4>Catergories</h4>
+                        <ul class="list">
+                            <li class="nav-item"><a href="#">Women</a></li>
+                            <li class="nav-item"><a href="#">Men</a></li>
+                            <li class="nav-item"><a href="#">Shoes</a></li>
+                            <li class="nav-item"><a href="#">Accessories</a></li>
+                        </ul>
+                    </ul>
+                </div>
+
+                <div class="col-sm-3">
+                    <ul>
+                        <h4>Help</h4>
+                        <ul class="list">
+                            <li class="nav-item"><a href="#">Track Order</a></li>
+                            <li class="nav-item"><a href="#">Returns</a></li>
+                            <li class="nav-item"><a href="#">Shipping</a></li>
+                            <li class="nav-item"><a href="#">FAQs</a></li>
+                            <li class="nav-item"><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </ul>
+                </div>
+
+                <div class="col-sm-3">
+                    <ul>
+                        <h4>Get In Touch</h4>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure, excepturi.</p>
+                        <ul class="list d-flex">
+                            <li class="nav-item"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                            <li class="nav-item"><a href="#"><i class="fab fa-twitter"></i></a></li>
+                            <li class="nav-item"><a href="#"><i class="fab fa-instagram"></i></a></li>
+                        </ul>
+                    </ul>
+                </div>
+
+                <div class="col-sm-3">
+                    <ul>
+                        <h4>Newsletter</h4>
+                        <input type="email" name="newsletter-email" id="newsletter-email" placeholder="Email..."
+                            size="30">
+                        <button class="btn btn-primary d-block w-50 mx-auto mt-5 rounded">Subscribe</button>
+                    </ul>
+                </div>
+                <div class="col-sm-12">
+                    <p class="font-size-16 text-center">&copy; VictorAyala <span id="year"></span></p>
+                </div>
+            </div>
+        </div>
+    </footer>
 
 </body>
 
