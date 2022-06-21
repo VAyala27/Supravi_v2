@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
         integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
@@ -16,7 +16,7 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-sm navbar-light bg-white border-bottom">
+    <nav class="navbar navbar-expand-xl navbar-light bg-white border-bottom">
         <div class="container">
             <a href="index.html" class="navbar-brand">Supravi</a>
             <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
@@ -123,66 +123,55 @@
         <div class="container pt-5 pb-5">
             <h1 class="text-center mb-5 display-4 font-weight-bold">Sign Up</h1>
             <div class="row justify-content-center align-items-center">
-                <div class="col-md-8">
+                <div class="col-md-8 col-sm-12">
                     <form action="" method="POST">
                         <div class="form-group">
                             <div class="row">
-                                <div class="col-md-2"></div>
-                                <div class="col-md-8 mb-3">
+                                <div class="col-md-12 mb-3">
                                     <div class="text-danger"></div>
                                     <label for="firstname" class="firstname">First Name</label>
                                     <input type="text" name="firstname" id="firstname"
                                         class="form-control d-block mx-auto" placeholder="Enter Firstname...">
                                 </div>
-                            </div>
 
-                            <div class="row">
-                                <div class="col-md-2"></div>
-                                <div class="col-md-8 mb-3">
+                                <div class="col-md-12 mb-3">
                                     <div class="text-danger"></div>
                                     <label for=" lastname" class="lastname">Last Name</label>
                                     <input type="text" name="lastname" id="lastname"
                                         class="form-control d-block mx-auto" placeholder="Enter Lastname...">
                                 </div>
-                            </div>
 
-                            <div class="row">
-                                <div class="col-md-2"></div>
-                                <div class="col-md-8 mb-3">
+                                <div class="col-md-12 mb-3">
                                     <div class="text-danger"></div>
                                     <label for="email" class="email">Email</label>
                                     <input type="email" name="email" id="email" class="form-control d-block mx-auto"
                                         autocomplete="off" placeholder="Enter Email...">
                                 </div>
-                            </div>
 
-                            <div class="row">
-                                <div class="col-md-2"></div>
-                                <div class="col-md-8 mb-3">
+                                <div class="col-md-12 mb-3">
                                     <div class="text-danger"></div>
                                     <label for="password" class="password">Password</label>
                                     <input type="password" name="password" id="password"
                                         class="form-control d-block mx-auto" placeholder="Enter Password...">
                                 </div>
-                            </div>
 
-                            <div class="row">
-                                <div class="col-md-2"></div>
-                                <div class="col-md-8 mb-3">
+                                <div class="col-md-12 mb-4">
                                     <div class="text-danger"></div>
                                     <label for="password" class="password">Confirm Password</label>
                                     <input type="password" name="password2" id="password2"
                                         class="form-control d-block mx-auto" placeholder="Enter Password...">
                                 </div>
-                            </div>
-
-                        </div>
-                        <input type="button" name="register" id="register"
-                            class="btn btn-dark mt-5 d-block w-50 mx-auto" value="Sign Up">
-                        <input type="reset" class="btn btn-danger mt-5 d-block w-50 mx-auto" value="Clear">
+                                <div class="col-md-12 mb-3">
+                                    <input type="button" name="register" id="register"
+                                        class="btn btn-dark d-block w-50 mx-auto" value="Sign Up">
+                                </div>
+                                <div class="col-md-12 mb-3">
+                                    <input type="reset" class="btn btn-danger d-block w-50 mx-auto" value="Clear">
+                                </div>
                     </form>
                 </div>
             </div>
+        </div>
         </div>
     </main>
 

@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
         integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
@@ -15,110 +15,108 @@
 </head>
 
 <body>
-    <header class="navbar-light">
-        <nav class="navbar navbar-expand-sm navbar-light bg-white border-bottom">
-            <div class="container">
-                <a href="index.html" class="navbar-brand">Supravi</a>
-                <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
-                    <span class="navbar-toggler-icon"></span>
+    <nav class="navbar navbar-expand-xl navbar-light bg-white border-bottom">
+        <div class="container">
+            <a href="index.html" class="navbar-brand">Supravi</a>
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="btn-group user-menu mobile-view">
+                <button class="btn btn-sm dropdown-toggle mr-3 bg-white border-none" type="button"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                    <i class="far fa-user"></i>
                 </button>
-                <div class="btn-group user-menu mobile-view">
-                    <button class="btn btn-sm dropdown-toggle mr-3 bg-white border-none" type="button"
-                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-                        <i class="far fa-user"></i>
-                    </button>
-                    <div class="dropdown-menu">
-                        <a href="register.html" class="text-center text-dark d-block">Register</a> <br>
-                        <a href="login.html" class="text-center text-dark d-block">Login</a>
-                    </div>
-                </div>
-                <a href="cart.html" id="shopping-cart" class="mr-3 mobile-view"><i class="fas fa-shopping-cart"></i>
-                    <span class='counter'>0</span>
-                </a>
-                <div class="collapse navbar-collapse" id="navbarCollapse">
-                    <ul class="navbar-nav mr-auto">
-                        <li class="nav-item">
-                            <a href="index.html" class="nav-link">Home</a>
-                        </li>
-                        <li class="nav-item dropdown menu-area">
-                            <a href="#" class="nav-link dropdown-toggle" id="mega-one" data-toggle="dropdown">Shop</a>
-                            <div class="dropdown-menu mega-area" aria-labelledby="mega-one">
-                                <div class="row">
-                                    <div class="col-sm-6 col-lg-3">
-                                        <h5>Women's Collection</h5>
-                                        <a href="all_women_clothing.html" class="dropdown-item">All Women's Clothing</a>
-                                        <a href="women_dresses.html" class="dropdown-item">Dresses</a>
-                                        <a href="women_tops.html" class="dropdown-item">Tops</a>
-                                        <a href="women_suits.html" class="dropdown-item">Suits</a>
-                                        <a href="women_sweaters.html" class="dropdown-item">Sweaters</a>
-                                        <a href="women_jackets.html" class="dropdown-item">Jackets</a>
-                                        <a href="women_pants.html" class="dropdown-item">Pants</a>
-                                        <a href="women_skirts.html" class="dropdown-item">Skirts</a>
-                                    </div>
-                                    <div class="col-sm-6 col-lg-3">
-                                        <h5>Men's Collection</h5>
-                                        <a href="all_men_clothing.html" class="dropdown-item">All Men's Clothing</a>
-                                        <a href="men_shirts.html" class="dropdown-item">T-shirts</a>
-                                        <a href="men_suits.html" class="dropdown-item">Suits</a>
-                                        <a href="men_sweaters.html" class="dropdown-item">Hoodies & Sweaters</a>
-                                        <a href="men_jackets.html" class="dropdown-item">Jackets</a>
-                                        <a href="men_pants.html" class="dropdown-item">Pants</a>
-                                        <a href="men_shorts.html" class="dropdown-item">Shorts</a>
-                                    </div>
-                                    <div class="col-sm-6 col-lg-3">
-                                        <h5>Women Shoes</h5>
-                                        <a href="women_boots.html" class="dropdown-item">Boots</a>
-                                        <a href="women_heels.html" class="dropdown-item">Heels</a>
-                                        <br>
-                                        <h5>Men's Shoes</h5>
-                                        <a href="men_sneakers.html" class="dropdown-item">Sneakers</a>
-                                    </div>
-                                    <div class="col-sm-6 col-lg-3">
-                                        <h5>Women Accessories</h5>
-                                        <a href="women_watches.html" class="dropdown-item">Watches</a>
-                                        <a href="women_bags.html" class="dropdown-item">Bags</a>
-                                        <br>
-                                        <h5>Men Accessories</h5>
-                                        <a href="men_watches.html" class="dropdown-item">Watches</a>
-                                        <a href="men_bags.html" class="dropdown-item">Bags</a>
-                                    </div>
-                                    <div class="col-sm-12 col-md-12">
-                                        <a class="text-center d-block text-light bg-dark py-2 mt-3"
-                                            href="all_products.html" class="dropdown-item">View All</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-                    </ul>
-
-                    <ul class="ml-auto mt-3 icons d-flex justify-content-center align-items-center">
-                        <form action="search.html" method="POST" name="search" class="form-inline">
-                            <div class="form-group">
-                                <input class="form-control mr-2" type="search" name="search_bar" placeholder="Search"
-                                    id="search_item" aria-label="Search">
-                                <button class="btn btn-outline-dark my-2 my-sm-0 mr-4" type="submit"
-                                    name="search_button">Search</button>
-                            </div>
-                        </form>
-
-                        <div class="btn-group mobile-none">
-                            <button class="btn btn-sm dropdown-toggle mr-3 bg-white border-none" type="button"
-                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-                                <i class="far fa-user"></i>
-                            </button>
-                            <div class="dropdown-menu">
-                                <a href="register.html" class="text-center text-dark d-block">Register</a> <br>
-                                <a href="login.html" class="text-center text-dark d-block">Login</a>
-                            </div>
-                        </div>
-                        <a href="cart.html" id="shopping-cart" class="mr-3 mobile-none"><i
-                                class="fas fa-shopping-cart"></i>
-                            <span class='counter'>0</span>
-                        </a>
-                    </ul>
+                <div class="dropdown-menu">
+                    <a href="register.html" class="text-center text-dark d-block">Register</a> <br>
+                    <a href="login.html" class="text-center text-dark d-block">Login</a>
                 </div>
             </div>
-        </nav>
+            <a href="cart.html" id="shopping-cart" class="mr-3 mobile-view"><i class="fas fa-shopping-cart"></i>
+                <span class='counter'>0</span>
+            </a>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item dropdown menu-area">
+                        <a href="#" class="nav-link dropdown-toggle" id="mega-one" data-toggle="dropdown">Shop</a>
+                        <div class="dropdown-menu mega-area" aria-labelledby="mega-one">
+                            <div class="row">
+                                <div class="col-sm-6 col-lg-3">
+                                    <h5>Women's Collection</h5>
+                                    <a href="all_women_clothing.html" class="dropdown-item">All Women's Clothing</a>
+                                    <a href="women_dresses.html" class="dropdown-item">Dresses</a>
+                                    <a href="women_tops.html" class="dropdown-item">Tops</a>
+                                    <a href="women_suits.html" class="dropdown-item">Suits</a>
+                                    <a href="women_sweaters.html" class="dropdown-item">Sweaters</a>
+                                    <a href="women_jackets.html" class="dropdown-item">Jackets</a>
+                                    <a href="women_pants.html" class="dropdown-item">Pants</a>
+                                    <a href="women_skirts.html" class="dropdown-item">Skirts</a>
+                                </div>
+                                <div class="col-sm-6 col-lg-3">
+                                    <h5>Men's Collection</h5>
+                                    <a href="all_men_clothing.html" class="dropdown-item">All Men's Clothing</a>
+                                    <a href="men_shirts.html" class="dropdown-item">T-shirts</a>
+                                    <a href="men_suits.html" class="dropdown-item">Suits</a>
+                                    <a href="men_sweaters.html" class="dropdown-item">Hoodies & Sweaters</a>
+                                    <a href="men_jackets.html" class="dropdown-item">Jackets</a>
+                                    <a href="men_pants.html" class="dropdown-item">Pants</a>
+                                    <a href="men_shorts.html" class="dropdown-item">Shorts</a>
+                                </div>
+                                <div class="col-sm-6 col-lg-3">
+                                    <h5>Women Shoes</h5>
+                                    <a href="women_boots.html" class="dropdown-item">Boots</a>
+                                    <a href="women_heels.html" class="dropdown-item">Heels</a>
+                                    <br>
+                                    <h5>Men's Shoes</h5>
+                                    <a href="men_sneakers.html" class="dropdown-item">Sneakers</a>
+                                </div>
+                                <div class="col-sm-6 col-lg-3">
+                                    <h5>Women Accessories</h5>
+                                    <a href="women_watches.html" class="dropdown-item">Watches</a>
+                                    <a href="women_bags.html" class="dropdown-item">Bags</a>
+                                    <br>
+                                    <h5>Men Accessories</h5>
+                                    <a href="men_watches.html" class="dropdown-item">Watches</a>
+                                    <a href="men_bags.html" class="dropdown-item">Bags</a>
+                                </div>
+                                <div class="col-sm-12 col-md-12">
+                                    <a class="text-center d-block text-light bg-dark py-2 mt-3" href="all_products.html"
+                                        class="dropdown-item">View All</a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+
+                <ul class="ml-auto mt-3 icons d-flex justify-content-center align-items-center">
+                    <form action="search.html" method="POST" name="search" class="form-inline">
+                        <div class="form-group">
+                            <input class="form-control mr-2" type="search" name="search_bar" placeholder="Search"
+                                id="search_item" aria-label="Search">
+                            <button class="btn btn-outline-dark my-2 my-sm-0 mr-4" type="submit"
+                                name="search_button">Search</button>
+                        </div>
+                    </form>
+
+                    <div class="btn-group mobile-none">
+                        <button class="btn btn-sm dropdown-toggle mr-3 bg-white border-none" type="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                            <i class="far fa-user"></i>
+                        </button>
+                        <div class="dropdown-menu">
+                            <a href="register.html" class="text-center text-dark d-block">Register</a> <br>
+                            <a href="login.html" class="text-center text-dark d-block">Login</a>
+                        </div>
+                    </div>
+                    <a href="cart.html" id="shopping-cart" class="mr-3 mobile-none"><i class="fas fa-shopping-cart"></i>
+                        <span class='counter'>0</span>
+                    </a>
+                </ul>
+            </div>
+        </div>
+    </nav>
     </header>
 
     <main class="py-5">
