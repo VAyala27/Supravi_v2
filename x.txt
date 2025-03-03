@@ -1,0 +1,1631 @@
+   <div class="col-md-12 col-lg-9 list">
+            <div class="row product-row">
+              <div class="col-12 col-sm-12 col-md-4 col-lg-4 product">
+                <form action="" method="POST">
+                  <div class="card mb-5">
+                    <a class="text-dark" href="#">
+                      <img
+                        src="../img/mens_shirt1.jpg"
+                        class="img-fluid w-100 product-img d-block"
+                        alt="product-img"
+                      />
+                    </a>
+                    <div class="card-section text-center">
+                      <a class="text-dark" href="#">Flannel Shirt</a>
+                      <p class="product-price">$19.99</p>
+                      <span class="btn btn-dark d-block add-to-cart">Add To Cart</span>
+                    </div>
+                  </div>
+                </form>
+              </div>
+              <div class="col-12 col-sm-12 col-md-4 col-lg-4 product">
+                <form action="" method="POST">
+                  <div class="card mb-5">
+                    <a class="text-dark" href="#">
+                      <img
+                        src="../img/mens_shirt2.jpeg"
+                        class="img-fluid w-100 product-img d-block"
+                        alt="product-img"
+                      />
+                    </a>
+                    <div class="card-section text-center">
+                      <a class="text-dark" href="#">Tech™ Short Sleeve</a>
+                      <p class="product-price">$19.99</p>
+                      <span class="btn btn-dark d-block add-to-cart">Add To Cart</span>
+                    </div>
+                  </div>
+                </form>
+              </div>
+              <div class="col-12 col-sm-12 col-md-4 col-lg-4 product">
+                <form action="" method="POST">
+                  <div class="card mb-5">
+                    <a class="text-dark" href="#">
+                      <img
+                        src="../img/mens_shirt3.jpeg"
+                        class="img-fluid w-100 product-img d-block"
+                        alt="product-img"
+                      />
+                    </a>
+                    <div class="card-section text-center">
+                      <a class="text-dark" href="#">
+                        Soft Touch Stretch Henley
+                      </a>
+                      <p class="product-price">$20.99</p>
+                      <span class="btn btn-dark d-block add-to-cart">Add To Cart</span>
+                    </div>
+                  </div>
+                </form>
+              </div>
+              <div class="col-12 col-sm-12 col-md-4 col-lg-4 product">
+                <form action="" method="POST">
+                  <div class="card mb-5">
+                    <a class="text-dark" href="#">
+                      <img
+                        src="../img/mens_shirt4.jpeg"
+                        class="img-fluid w-100 product-img d-block"
+                        alt="product-img"
+                      />
+                    </a>
+                    <div class="card-section text-center">
+                      <a class="text-dark" href="#">Ivy Logo T-Shirt</a>
+                      <p class="product-price">$20.99</p>
+                      <span class="btn btn-dark d-block add-to-cart">Add To Cart</span>
+                    </div>
+                  </div>
+                </form>
+              </div>
+              <div class="col-12 col-sm-12 col-md-4 col-lg-4 product">
+                <form action="" method="POST">
+                  <div class="card mb-5">
+                    <a class="text-dark" href="#">
+                      <img
+                        src="../img/mens_shirt5.jpeg"
+                        class="img-fluid w-100 product-img d-block"
+                        alt="product-img"
+                      />
+                    </a>
+                    <div class="card-section text-center">
+                      <a class="text-dark" href="#">Drexel Strip Polo Shirt</a>
+                      <p class="product-price">$22.99</p>
+                      <span class="btn btn-dark d-block add-to-cart">Add To Cart</span>
+                    </div>
+                  </div>
+                </form>
+              </div>
+              <div class="col-12 col-sm-12 col-md-4 col-lg-4 product">
+                <form action="" method="POST">
+                  <div class="card mb-5">
+                    <a class="text-dark" href="#">
+                      <img
+                        src="../img/mens_shirt7.jpeg"
+                        class="img-fluid w-100 product-img d-block"
+                        alt="product-img"
+                      />
+                    </a>
+                    <div class="card-section text-center">
+                      <a class="text-dark" href="#">Classic-Fit Ivy Polo</a>
+                      <p class="product-price">$20.99</p>
+                      <span class="btn btn-dark d-block add-to-cart">Add To Cart</span>
+                    </div>
+                  </div>
+                </form>
+              </div>
+              <div class="col-12 col-sm-12 col-md-4 col-lg-4 product">
+                <form action="" method="POST">
+                  <div class="card mb-5">
+                    <a class="text-dark" href="#">
+                      <img
+                        src="../img/mens_shirt6.jpeg"
+                        class="img-fluid w-100 product-img d-block"
+                        alt="product-img"
+                      />
+                    </a>
+                    <div class="card-section text-center">
+                      <a class="text-dark" href="#">
+                        Hemenway Regular-Fit Stripe Shirt
+                      </a>
+                      <p class="product-price">$25.99</p>
+                      <span class="btn btn-dark d-block add-to-cart">Add To Cart</span>
+                    </div>
+                  </div>
+                </form>
+              </div>
+              <div class="col-12 col-sm-12 col-md-4 col-lg-4 product">
+                <form action="" method="POST">
+                  <div class="card mb-5">
+                    <a class="text-dark" href="#">
+                      <img
+                        src="../img/men_suit1.jpeg"
+                        class="img-fluid w-100 product-img d-block"
+                        alt="product-img"
+                      />
+                    </a>
+                    <div class="card-section text-center">
+                      <a class="text-dark" href="#">
+                        Classic-Fit Solid Ultraflex Suit Separates
+                      </a>
+                      <p class="product-price">$125.00</p>
+                      <span class="btn btn-dark d-block add-to-cart">Add To Cart</span>
+                    </div>
+                  </div>
+                </form>
+              </div>
+              <div class="col-12 col-sm-12 col-md-4 col-lg-4 product">
+                <form action="" method="POST">
+                  <div class="card mb-5">
+                    <a class="text-dark" href="#">
+                      <img
+                        src="../img/men_suit2.jpeg"
+                        class="img-fluid w-100 product-img d-block"
+                        alt="product-img"
+                      />
+                    </a>
+                    <div class="card-section text-center">
+                      <a class="text-dark" href="#">
+                        Stretch Performance Solid Slim-Fit Suit Separates
+                      </a>
+                      <p class="product-price">$129.99</p>
+                      <span class="btn btn-dark d-block add-to-cart">Add To Cart</span>
+                    </div>
+                  </div>
+                </form>
+              </div>
+              <div class="col-12 col-sm-12 col-md-4 col-lg-4 product">
+                <form action="" method="POST">
+                  <div class="card mb-5">
+                    <a class="text-dark" href="#">
+                      <img
+                        src="../img/men_suit3.jpeg"
+                        class="img-fluid w-100 product-img d-block"
+                        alt="product-img"
+                      />
+                    </a>
+                    <div class="card-section text-center">
+                      <a class="text-dark" href="#">
+                        Solid Ultraflex Classic-Fit Suit Separates
+                      </a>
+                      <p class="product-price">$125.00</p>
+                      <span class="btn btn-dark d-block add-to-cart">Add To Cart</span>
+                    </div>
+                  </div>
+                </form>
+              </div>
+              <div class="col-12 col-sm-12 col-md-4 col-lg-4 product">
+                <form action="" method="POST">
+                  <div class="card mb-5">
+                    <a class="text-dark" href="#">
+                      <img
+                        src="../img/men_suit4.jpeg"
+                        class="img-fluid w-100 product-img d-block"
+                        alt="product-img"
+                      />
+                    </a>
+                    <div class="card-section text-center">
+                      <a class="text-dark" href="#">
+                        Unlisted Solid Stretch Slim-Fit Suit
+                      </a>
+                      <p class="product-price">$130.00</p>
+                      <span class="btn btn-dark d-block add-to-cart">Add To Cart</span>
+                    </div>
+                  </div>
+                </form>
+              </div>
+              <div class="col-12 col-sm-12 col-md-4 col-lg-4 product">
+                <form action="" method="POST">
+                  <div class="card mb-5">
+                    <a class="text-dark" href="#">
+                      <img
+                        src="../img/men_suit5.jpeg"
+                        class="img-fluid w-100 product-img d-block"
+                        alt="product-img"
+                      />
+                    </a>
+                    <div class="card-section text-center">
+                      <a class="text-dark" href="#">
+                        Slim-Fit Gray/Brown Plaid Suit Separates
+                      </a>
+                      <p class="product-price">$120.00</p>
+                      <span class="btn btn-dark d-block add-to-cart">Add To Cart</span>
+                    </div>
+                  </div>
+                </form>
+              </div>
+              <div class="col-12 col-sm-12 col-md-4 col-lg-4 product">
+                <form action="" method="POST">
+                  <div class="card mb-5">
+                    <a class="text-dark" href="#">
+                      <img
+                        src="../img/men_hoodie1.jpeg"
+                        class="img-fluid w-100 product-img d-block"
+                        alt="product-img"
+                      />
+                    </a>
+                    <div class="card-section text-center">
+                      <a class="text-dark" href="#">Signature Fleece Hoodie</a>
+                      <p class="product-price">$40.00</p>
+                      <span class="btn btn-dark d-block add-to-cart">Add To Cart</span>
+                    </div>
+                  </div>
+                </form>
+              </div>
+              <div class="col-12 col-sm-12 col-md-4 col-lg-4 product">
+                <form action="" method="POST">
+                  <div class="card mb-5">
+                    <a class="text-dark" href="#">
+                      <img
+                        src="../img/men_hoodie2.jpeg"
+                        class="img-fluid w-100 product-img d-block"
+                        alt="product-img"
+                      />
+                    </a>
+                    <div class="card-section text-center">
+                      <a class="text-dark" href="#">Powerblend Fleece Hoodie</a>
+                      <p class="product-price">$35.99</p>
+                      <span class="btn btn-dark d-block add-to-cart">Add To Cart</span>
+                    </div>
+                  </div>
+                </form>
+              </div>
+              <div class="col-12 col-sm-12 col-md-4 col-lg-4 product">
+                <form action="" method="POST">
+                  <div class="card mb-5">
+                    <a class="text-dark" href="#">
+                      <img
+                        src="../img/men_hoodie3.jpeg"
+                        class="img-fluid w-100 product-img d-block"
+                        alt="product-img"
+                      />
+                    </a>
+                    <div class="card-section text-center">
+                      <a class="text-dark" href="#">Mesh Hoodie</a>
+                      <p class="product-price">$32.99</p>
+                      <span class="btn btn-dark d-block add-to-cart">Add To Cart</span>
+                    </div>
+                  </div>
+                </form>
+              </div>
+              <div class="col-12 col-sm-12 col-md-4 col-lg-4 product">
+                <form action="" method="POST">
+                  <div class="card mb-5">
+                    <a class="text-dark" href="#">
+                      <img
+                        src="../img/men_sweater1.jpeg"
+                        class="img-fluid w-100 product-img d-block"
+                        alt="product-img"
+                      />
+                    </a>
+                    <div class="card-section text-center">
+                      <a class="text-dark" href="#">
+                        Pima Cable Quarter-Zip Sweater
+                      </a>
+                      <p class="product-price">$30.00</p>
+                      <span class="btn btn-dark d-block add-to-cart">Add To Cart</span>
+                    </div>
+                  </div>
+                </form>
+              </div>
+              <div class="col-12 col-sm-12 col-md-4 col-lg-4 product">
+                <form action="" method="POST">
+                  <div class="card mb-5">
+                    <a class="text-dark" href="#">
+                      <img
+                        src="../img/men_sweater2.jpeg"
+                        class="img-fluid w-100 product-img d-block"
+                        alt="product-img"
+                      />
+                    </a>
+                    <div class="card-section text-center">
+                      <a class="text-dark" href="#">
+                        Pima Cable Quarter-Zip Sweater
+                      </a>
+                      <p class="product-price">$35.99</p>
+                      <span class="btn btn-dark d-block add-to-cart">Add To Cart</span>
+                    </div>
+                  </div>
+                </form>
+              </div>
+              <div class="col-12 col-sm-12 col-md-4 col-lg-4 product">
+                <form action="" method="POST">
+                  <div class="card mb-5">
+                    <a class="text-dark" href="#">
+                      <img
+                        src="../img/men_jacket1.jpeg"
+                        class="img-fluid w-100 product-img d-block"
+                        alt="product-img"
+                      />
+                    </a>
+                    <div class="card-section text-center">
+                      <a class="text-dark" href="#">
+                        Michael Kors Perforated Faux-Leather Moto Jacket
+                      </a>
+                      <p class="product-price">$112.50</p>
+                      <span class="btn btn-dark d-block add-to-cart">Add To Cart</span>
+                    </div>
+                  </div>
+                </form>
+              </div>
+              <div class="col-12 col-sm-12 col-md-4 col-lg-4 product">
+                <form action="" method="POST">
+                  <div class="card mb-5">
+                    <a class="text-dark" href="#">
+                      <img
+                        src="../img/men_jacket2.jpeg"
+                        class="img-fluid w-100 product-img d-block"
+                        alt="product-img"
+                      />
+                    </a>
+                    <div class="card-section text-center">
+                      <a class="text-dark" href="#">
+                        Two Pocket Hooded Trucker Jacket
+                      </a>
+                      <p class="product-price">$112.50</p>
+                      <span class="btn btn-dark d-block add-to-cart">Add To Cart</span>
+                    </div>
+                  </div>
+                </form>
+              </div>
+              <div class="col-12 col-sm-12 col-md-4 col-lg-4 product">
+                <form action="" method="POST">
+                  <div class="card mb-5">
+                    <a class="text-dark" href="#">
+                      <img
+                        src="../img/men_jacket3.jpeg"
+                        class="img-fluid w-100 product-img d-block"
+                        alt="product-img"
+                      />
+                    </a>
+                    <div class="card-section text-center">
+                      <a class="text-dark" href="#">
+                        Luke Wool-Blend Classic-Fit Peacoat
+                      </a>
+                      <p class="product-price">$125.00</p>
+                      <span class="btn btn-dark d-block add-to-cart">Add To Cart</span>
+                    </div>
+                  </div>
+                </form>
+              </div>
+              <div class="col-12 col-sm-12 col-md-4 col-lg-4 product">
+                <form action="" method="POST">
+                  <div class="card mb-5">
+                    <a class="text-dark" href="#">
+                      <img
+                        src="../img/men_jacket4.jpeg"
+                        class="img-fluid w-100 product-img d-block"
+                        alt="product-img"
+                      />
+                    </a>
+                    <div class="card-section text-center">
+                      <a class="text-dark" href="#">Long Snorkel Coat</a>
+                      <p class="product-price">$175.00</p>
+                      <span class="btn btn-dark d-block add-to-cart">Add To Cart</span>
+                    </div>
+                  </div>
+                </form>
+              </div>
+              <div class="col-12 col-sm-12 col-md-4 col-lg-4 product">
+                <form action="" method="POST">
+                  <div class="card mb-5">
+                    <a class="text-dark" href="#">
+                      <img
+                        src="../img/men_jacket5.jpeg"
+                        class="img-fluid w-100 product-img d-block"
+                        alt="product-img"
+                      />
+                    </a>
+                    <div class="card-section text-center">
+                      <a class="text-dark" href="#">Bateman Jacket</a>
+                      <p class="product-price">$90.00</p>
+                      <span class="btn btn-dark d-block add-to-cart">Add To Cart</span>
+                    </div>
+                  </div>
+                </form>
+              </div>
+              <div class="col-12 col-sm-12 col-md-4 col-lg-4 product">
+                <form action="" method="POST">
+                  <div class="card mb-5">
+                    <a class="text-dark" href="#">
+                      <img
+                        src="../img/mens_bottoms2.jpeg"
+                        class="img-fluid w-100 product-img d-block"
+                        alt="product-img"
+                      />
+                    </a>
+                    <div class="card-section text-center">
+                      <a class="text-dark" href="#">
+                        Lux Cottons Slim Fit Pants Tee
+                      </a>
+                      <p class="product-price">$32.99</p>
+                      <span class="btn btn-dark d-block add-to-cart">Add To Cart</span>
+                    </div>
+                  </div>
+                </form>
+              </div>
+              <div class="col-12 col-sm-12 col-md-4 col-lg-4 product">
+                <form action="" method="POST">
+                  <div class="card mb-5">
+                    <a class="text-dark" href="#">
+                      <img
+                        src="../img/mens_bottoms3.jpeg"
+                        class="img-fluid w-100 product-img d-block"
+                        alt="product-img"
+                      />
+                    </a>
+                    <div class="card-section text-center">
+                      <a class="text-dark" href="#">
+                        Microtwill Ultraflex Dress Pants
+                      </a>
+                      <p class="product-price">$25.99</p>
+                      <span class="btn btn-dark d-block add-to-cart">Add To Cart</span>
+                    </div>
+                  </div>
+                </form>
+              </div>
+              <div class="col-12 col-sm-12 col-md-4 col-lg-4 product">
+                <form action="" method="POST">
+                  <div class="card mb-5">
+                    <a class="text-dark" href="#">
+                      <img
+                        src="../img/mens_bottoms4.jpeg"
+                        class="img-fluid w-100 product-img d-block"
+                        alt="product-img"
+                      />
+                    </a>
+                    <div class="card-section text-center">
+                      <a class="text-dark" href="#">
+                        100% Wool Double-Reverse Dress Pants
+                      </a>
+                      <p class="product-price">$25.99</p>
+                      <span class="btn btn-dark d-block add-to-cart">Add To Cart</span>
+                    </div>
+                  </div>
+                </form>
+              </div>
+              <div class="col-12 col-sm-12 col-md-4 col-lg-4 product">
+                <form action="" method="POST">
+                  <div class="card mb-5">
+                    <a class="text-dark" href="#">
+                      <img
+                        src="../img/mens_bottoms1.jpeg"
+                        class="img-fluid w-100 product-img d-block"
+                        alt="product-img"
+                      />
+                    </a>
+                    <div class="card-section text-center">
+                      <a class="text-dark" href="#">Skinny-Fit Suit Pants</a>
+                      <p class="product-price">$30.99</p>
+                      <span class="btn btn-dark d-block add-to-cart">Add To Cart</span>
+                    </div>
+                  </div>
+                </form>
+              </div>
+              <div class="col-12 col-sm-12 col-md-4 col-lg-4 product">
+                <form action="" method="POST">
+                  <div class="card mb-5">
+                    <a class="text-dark" href="#">
+                      <img
+                        src="../img/mens_bottoms6.jpeg"
+                        class="img-fluid w-100 product-img d-block"
+                        alt="product-img"
+                      />
+                    </a>
+                    <div class="card-section text-center">
+                      <a class="text-dark" href="#">Classic-Fit Jogger Pants</a>
+                      <p class="product-price">$30.99</p>
+                      <span class="btn btn-dark d-block add-to-cart">Add To Cart</span>
+                    </div>
+                  </div>
+                </form>
+              </div>
+              <div class="col-12 col-sm-12 col-md-4 col-lg-4 product">
+                <form action="" method="POST">
+                  <div class="card mb-5">
+                    <a class="text-dark" href="#">
+                      <img
+                        src="../img/mens_bottoms8_midnight.jpg"
+                        class="img-fluid w-100 product-img d-block"
+                        alt="product-img"
+                      />
+                    </a>
+                    <div class="card-section text-center">
+                      <a class="text-dark" href="#">Logo Fleece Joggers</a>
+                      <p class="product-price">$24.99</p>
+                      <span class="btn btn-dark d-block add-to-cart">Add To Cart</span>
+                    </div>
+                  </div>
+                </form>
+              </div>
+              <div class="col-12 col-sm-12 col-md-4 col-lg-4 product">
+                <form action="" method="POST">
+                  <div class="card mb-5">
+                    <a class="text-dark" href="#">
+                      <img
+                        src="../img/shorts1.jpeg"
+                        class="img-fluid w-100 product-img d-block"
+                        alt="product-img"
+                      />
+                    </a>
+                    <div class="card-section text-center">
+                      <a class="text-dark" href="#">
+                        Classic Flight Cargo 14" Shorts
+                      </a>
+                      <p class="product-price">$45.99</p>
+                      <span class="btn btn-dark d-block add-to-cart">Add To Cart</span>
+                    </div>
+                  </div>
+                </form>
+              </div>
+              <div class="col-12 col-sm-12 col-md-4 col-lg-4 product">
+                <form action="" method="POST">
+                  <div class="card mb-5">
+                    <a class="text-dark" href="#">
+                      <img
+                        src="../img/shorts2.jpeg"
+                        class="img-fluid w-100 product-img d-block"
+                        alt="product-img"
+                      />
+                    </a>
+                    <div class="card-section text-center">
+                      <a class="text-dark" href="#">
+                        MVP Collections Big & Tall Print Drawstring Shorts
+                      </a>
+                      <p class="product-price">$50.00</p>
+                      <span class="btn btn-dark d-block add-to-cart">Add To Cart</span>
+                    </div>
+                  </div>
+                </form>
+              </div>
+              <div class="col-12 col-sm-12 col-md-4 col-lg-4 product">
+                <form action="" method="POST">
+                  <div class="card mb-5">
+                    <a class="text-dark" href="#">
+                      <img
+                        src="../img/shorts3.jpeg"
+                        class="img-fluid w-100 product-img d-block"
+                        alt="product-img"
+                      />
+                    </a>
+                    <div class="card-section text-center">
+                      <a class="text-dark" href="#">
+                        Relaxed Fit Camouflage Cotton Cargo Shorts
+                      </a>
+                      <p class="product-price">$45.99</p>
+                      <span class="btn btn-dark d-block add-to-cart">Add To Cart</span>
+                    </div>
+                  </div>
+                </form>
+              </div>
+              <div class="col-12 col-sm-12 col-md-4 col-lg-4 product">
+                <form action="" method="POST">
+                  <div class="card mb-5">
+                    <a class="text-dark" href="#">
+                      <img
+                        src="../img/shorts4.jpeg"
+                        class="img-fluid w-100 product-img d-block"
+                        alt="product-img"
+                      />
+                    </a>
+                    <div class="card-section text-center">
+                      <a class="text-dark" href="#">Fleece Shorts</a>
+                      <p class="product-price">$45.00</p>
+                      <span class="btn btn-dark d-block add-to-cart">Add To Cart</span>
+                    </div>
+                  </div>
+                </form>
+              </div>
+              <div class="col-12 col-sm-12 col-md-4 col-lg-4 product">
+                <form action="" method="POST">
+                  <div class="card mb-5">
+                    <a class="text-dark" href="#">
+                      <img
+                        src="../img/shorts5.jpeg"
+                        class="img-fluid w-100 product-img d-block"
+                        alt="product-img"
+                      />
+                    </a>
+                    <div class="card-section text-center">
+                      <a class="text-dark" href="#">
+                        TH Flex Stretch 9" Shorts
+                      </a>
+                      <p class="product-price">$45.99</p>
+                      <span class="btn btn-dark d-block add-to-cart">Add To Cart</span>
+                    </div>
+                  </div>
+                </form>
+              </div>
+              <div class="col-12 col-sm-12 col-md-4 col-lg-4 product">
+                <form action="" method="POST">
+                  <div class="card mb-5">
+                    <a class="text-dark" href="#">
+                      <img
+                        src="../img/men_sneakers1.jpeg"
+                        class="img-fluid w-100 product-img d-block"
+                        alt="product-img"
+                      />
+                    </a>
+                    <div class="card-section text-center">
+                      <a class="text-dark" href="#">
+                        Air Max Excee Running Sneakers
+                      </a>
+                      <p class="product-price">$70.00</p>
+                      <span class="btn btn-dark d-block add-to-cart">Add To Cart</span>
+                    </div>
+                  </div>
+                </form>
+              </div>
+              <div class="col-12 col-sm-12 col-md-4 col-lg-4 product">
+                <form action="" method="POST">
+                  <div class="card mb-5">
+                    <a class="text-dark" href="#">
+                      <img
+                        src="../img/men_sneakers2.jpeg"
+                        class="img-fluid w-100 product-img d-block"
+                        alt="product-img"
+                      />
+                    </a>
+                    <div class="card-section text-center">
+                      <a class="text-dark" href="#">009 Casual Sneakers</a>
+                      <p class="product-price">$45.00</p>
+                      <span class="btn btn-dark d-block add-to-cart">Add To Cart</span>
+                    </div>
+                  </div>
+                </form>
+              </div>
+              <div class="col-12 col-sm-12 col-md-4 col-lg-4 product">
+                <form action="" method="POST">
+                  <div class="card mb-5">
+                    <a class="text-dark" href="#">
+                      <img
+                        src="../img/men_sneakers3.jpeg"
+                        class="img-fluid w-100 product-img d-block"
+                        alt="product-img"
+                      />
+                    </a>
+                    <div class="card-section text-center">
+                      <a class="text-dark" href="#">X_PLR Casual Sneakers</a>
+                      <p class="product-price">$45.99</p>
+                      <span class="btn btn-dark d-block add-to-cart">Add To Cart</span>
+                    </div>
+                  </div>
+                </form>
+              </div>
+              <div class="col-12 col-sm-12 col-md-4 col-lg-4 product">
+                <form action="" method="POST">
+                  <div class="card mb-5">
+                    <a class="text-dark" href="#">
+                      <img
+                        src="../img/men_sneakers4.jpeg"
+                        class="img-fluid w-100 product-img d-block"
+                        alt="product-img"
+                      />
+                    </a>
+                    <div class="card-section text-center">
+                      <a class="text-dark" href="#">Shox R4 Running Sneakers</a>
+                      <p class="product-price">$50.00</p>
+                      <span class="btn btn-dark d-block add-to-cart">Add To Cart</span>
+                    </div>
+                  </div>
+                </form>
+              </div>
+              <div class="col-12 col-sm-12 col-md-4 col-lg-4 product">
+                <form action="" method="POST">
+                  <div class="card mb-5">
+                    <a class="text-dark" href="#">
+                      <img
+                        src="../img/men_sneakers5.jpg"
+                        class="img-fluid w-100 product-img d-block"
+                        alt="product-img"
+                      />
+                    </a>
+                    <div class="card-section text-center">
+                      <a class="text-dark" href="#">Jordan Jumpman 2020</a>
+                      <p class="product-price">$65.99</p>
+                      <span class="btn btn-dark d-block add-to-cart">Add To Cart</span>
+                    </div>
+                  </div>
+                </form>
+              </div>
+              <div class="col-12 col-sm-12 col-md-4 col-lg-4 product">
+                <form action="" method="POST">
+                  <div class="card mb-5">
+                    <a class="text-dark" href="#">
+                      <img
+                        src="../img/mens_bags1.jpeg"
+                        class="img-fluid w-100 product-img d-block"
+                        alt="product-img"
+                      />
+                    </a>
+                    <div class="card-section text-center">
+                      <a class="text-dark" href="#">Slingpack</a>
+                      <p class="product-price">$60.99</p>
+                      <span class="btn btn-dark d-block add-to-cart">Add To Cart</span>
+                    </div>
+                  </div>
+                </form>
+              </div>
+              <div class="col-12 col-sm-12 col-md-4 col-lg-4 product">
+                <form action="" method="POST">
+                  <div class="card mb-5">
+                    <a class="text-dark" href="#">
+                      <img
+                        src="../img/mens_bags2.jpeg"
+                        class="img-fluid w-100 product-img d-block"
+                        alt="product-img"
+                      />
+                    </a>
+                    <div class="card-section text-center">
+                      <a class="text-dark" href="#">Expandable Waist Pack</a>
+                      <p class="product-price">$59.99</p>
+                      <span class="btn btn-dark d-block add-to-cart">Add To Cart</span>
+                    </div>
+                  </div>
+                </form>
+              </div>
+              <div class="col-12 col-sm-12 col-md-4 col-lg-4 product">
+                <form action="" method="POST">
+                  <div class="card mb-5">
+                    <a class="text-dark" href="#">
+                      <img
+                        src="../img/mens_bags3.jpeg"
+                        class="img-fluid w-100 product-img d-block"
+                        alt="product-img"
+                      />
+                    </a>
+                    <div class="card-section text-center">
+                      <a class="text-dark" href="#">Hoops Elite Pro Backpack</a>
+                      <p class="product-price">$59.99</p>
+                      <span class="btn btn-dark d-block add-to-cart">Add To Cart</span>
+                    </div>
+                  </div>
+                </form>
+              </div>
+              <div class="col-12 col-sm-12 col-md-4 col-lg-4 product">
+                <form action="" method="POST">
+                  <div class="card mb-5">
+                    <a class="text-dark" href="#">
+                      <img
+                        src="../img/mens_bags4.jpeg"
+                        class="img-fluid w-100 product-img d-block"
+                        alt="product-img"
+                      />
+                    </a>
+                    <div class="card-section text-center">
+                      <a class="text-dark" href="#">Alexander Backpack</a>
+                      <p class="product-price">$30.99</p>
+                      <span class="btn btn-dark d-block add-to-cart">Add To Cart</span>
+                    </div>
+                  </div>
+                </form>
+              </div>
+              <div class="col-12 col-sm-12 col-md-4 col-lg-4 product">
+                <form action="" method="POST">
+                  <div class="card mb-5">
+                    <a class="text-dark" href="#">
+                      <img
+                        src="../img/mens_watches1.jpeg"
+                        class="img-fluid w-100 product-img d-block"
+                        alt="product-img"
+                      />
+                    </a>
+                    <div class="card-section text-center">
+                      <a class="text-dark" href="#">
+                        The Minimalist Brown Leather Strap Watch 44mm
+                      </a>
+                      <p class="product-price">$24.99</p>
+                      <span class="btn btn-dark d-block add-to-cart">Add To Cart</span>
+                    </div>
+                  </div>
+                </form>
+              </div>
+              <div class="col-12 col-sm-12 col-md-4 col-lg-4 product">
+                <form action="" method="POST">
+                  <div class="card mb-5">
+                    <a class="text-dark" href="#">
+                      <img
+                        src="../img/mens_watches2.jpeg"
+                        class="img-fluid w-100 product-img d-block"
+                        alt="product-img"
+                      />
+                    </a>
+                    <div class="card-section text-center">
+                      <a class="text-dark" href="#">
+                        Chronograph Chief Black Watch
+                      </a>
+                      <p class="product-price">$59.99</p>
+                      <span class="btn btn-dark d-block add-to-cart">Add To Cart</span>
+                    </div>
+                  </div>
+                </form>
+              </div>
+              <div class="col-12 col-sm-12 col-md-4 col-lg-4 product">
+                <form action="" method="POST">
+                  <div class="card mb-5">
+                    <a class="text-dark" href="#">
+                      <img
+                        src="../img/mens_watches3.jpeg"
+                        class="img-fluid w-100 product-img d-block"
+                        alt="product-img"
+                      />
+                    </a>
+                    <div class="card-section text-center">
+                      <a class="text-dark" href="#">
+                        Chronograph Stainless Steel Watch
+                      </a>
+                      <p class="product-price">$59.99</p>
+                      <span class="btn btn-dark d-block add-to-cart">Add To Cart</span>
+                    </div>
+                  </div>
+                </form>
+              </div>
+              <div class="col-12 col-sm-12 col-md-4 col-lg-4 product">
+                <form action="" method="POST">
+                  <div class="card mb-5">
+                    <a class="text-dark" href="#">
+                      <img
+                        src="../img/mens_watches6.jpeg"
+                        class="img-fluid w-100 product-img d-block"
+                        alt="product-img"
+                      />
+                    </a>
+                    <div class="card-section text-center">
+                      <a class="text-dark" href="#">
+                        Citizen Promaster Diver Mens Blue Strap Watch
+                      </a>
+                      <p class="product-price">$124.99</p>
+                      <span class="btn btn-dark d-block add-to-cart">Add To Cart</span>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+
+
+
+
+            itemElement.innerHTML = ` <div class="col-12 col-sm-12 col-md-4 col-lg-4 product">
+                  <div class="card mb-5">
+                    <a class="text-dark" href="#">
+                      <img
+                        src="${item.product_img}"
+                        class="img-fluid w-100 product-img d-block"
+                        alt="product-img"
+                      />
+                    </a>
+                    <div class="card-section text-center">
+                      <a class="text-dark" href="#">${item.product_name}</a>
+                      <p class="product-price">$${item.product_price}</p>
+                      <span class="btn btn-dark d-block add-to-cart">Add To Cart</span>
+                    </div>
+                  </div>
+              </div>`;
+
+
+
+// console.log(renderItems(data,paginatedItems));
+
+
+
+// console.log(filterByCategory(data, "Men T-Shirts", "Men Jackets", "Men Pants","Men Sneakers","Men Suits"));
+
+// function displayList(items, wrapper, rows_per_page, page) {
+//   wrapper.innerHTML = "";
+//   page--;
+
+//   let start = rows_per_page * page;
+//   let end = start + rows_per_page;
+//   let paginatedItems = items.slice(start, end);
+//   console.log(paginatedItems);
+//   // console.log(product.product_name);
+//   for (let i = 0; i < paginatedItems.length; i++) {
+//     let item = paginatedItems[i];
+//     let itemElement = document.createElement("div");
+//     itemElement.classList.add("col-lg-4", "col-md-4", "col-sm-12", "product");
+//     itemElement.innerHTML = `
+//         <div class="card mb-5">
+//           <a class="text-dark" href="#">
+//             <img
+//               src="${item.product_img}"
+//               class="img-fluid w-100 product-img d-block"
+//               alt="product-img"
+//             />
+//           </a>
+//           <div class="card-section text-center">
+//             <a class="text-dark" href="#">${item.product_name}</a>
+//             <p class="product-price">$${item.product_price}</p>
+//             <span class="btn btn-dark d-block add-to-cart">Add To Cart</span>
+//           </div>
+//     </div>`;
+//     wrapper.appendChild(itemElement);
+//   }
+// }
+
+// displayList(data, list, rows, currentPage);
+
+// function setupPagination(items, wrapper, rows_per_page) {
+//   wrapper.innerHTML = "";
+//   let page_count = Math.ceil(items.length / rows_per_page);
+
+//   for (let i = 1; i < page_count + 1; i++) {
+//     let btn = paginationBtn(i);
+
+//     wrapper.appendChild(btn);
+//   }
+// }
+
+// function paginationBtn(page) {
+//   let btn = document.createElement("button");
+//   btn.innerText = page;
+
+//   if (currentPage == page) btn.classList.add("active");
+
+//   btn.addEventListener("click", function () {
+//     currentPage = page;
+//     displayList(data, list, rows, currentPage);
+//   });
+//   return btn;
+// }
+// setupPagination(data, paginationELement, rows);
+
+
+// import data from "./data";
+// const data = [
+//   {
+//     id: "40",
+//     product_img: "https://i.ibb.co/4K5WS5z/mens-shirt1.jpg",
+//     product_name: "Flannel Shirt",
+//     product_desc: "",
+//     product_price: "19.99",
+//     category: "Men T-Shirts",
+//     category_id: "8",
+//   },
+//   {
+//     id: "41",
+//     product_img: "https://i.ibb.co/nrQgjfG/mens-shirt2.jpg",
+//     product_name: "Tech™ Short Sleeve",
+//     product_desc: "",
+//     product_price: "20.00",
+//     category: "Men T-Shirts",
+//     category_id: "8",
+//   },
+//   {
+//     id: "42",
+//     product_img: "https://i.ibb.co/9smM992/mens-shirt3.jpg",
+//     product_name: "Soft Touch Stretch Henley",
+//     product_desc: "",
+//     product_price: "21.99",
+//     category: "Men T-Shirts",
+//     category_id: "8",
+//   },
+//   {
+//     id: "43",
+//     product_img: "https://i.ibb.co/z2MKXY7/mens-shirt4.jpg",
+//     product_name: "Ivy Logo T-Shirt",
+//     product_desc: "",
+//     product_price: "20.99",
+//     category: "Men T-Shirts",
+//     category_id: "8",
+//   },
+//   {
+//     id: "44",
+//     product_img: "https://i.ibb.co/Tk3FC3Q/mens-shirt5.jpg",
+//     product_name: "Drexel Strip Polo Shirt",
+//     product_desc: "",
+//     product_price: "22.99",
+//     category: "Men T-Shirts",
+//     category_id: "8",
+//   },
+//   {
+//     id: "45",
+//     product_img: "https://i.ibb.co/rwTGJyH/mens-shirt7.jpg",
+//     product_name: "Classic-Fit Ivy Polo",
+//     product_desc: "",
+//     product_price: "20.99",
+//     category: "Men T-Shirts",
+//     category_id: "8",
+//   },
+//   {
+//     id: "46",
+//     product_img: "https://i.ibb.co/2hZQ7kV/mens-shirt6.jpg",
+//     product_name: "Hemenway Regular-Fit Stripe Shirt",
+//     product_desc: "",
+//     product_price: "25.99",
+//     category: "Men T-Shirts",
+//     category_id: "8",
+//   },
+//   {
+//     id: "47",
+//     product_img: "https://i.ibb.co/r4JkgWG/men-suit1.jpg",
+//     product_name: "Classic-Fit Solid Ultraflex Suit Separates",
+//     product_desc: "",
+//     product_price: "125.00",
+//     category: "Men Suits",
+//     category_id: "9",
+//   },
+//   {
+//     id: "48",
+//     product_img: "https://i.ibb.co/DQFdGNw/men-suit2.jpg",
+//     product_name: "Stretch Performance Solid Slim-Fit Suit Separates",
+//     product_desc: "",
+//     product_price: "129.99",
+//     category: "Men Suits",
+//     category_id: "9",
+//   },
+//   {
+//     id: "49",
+//     product_img: "https://i.ibb.co/VMzNwDW/men-suit3.jpg",
+//     product_name: "Solid Ultraflex Classic-Fit Suit Separates",
+//     product_desc: "",
+//     product_price: "125.00",
+//     category: "Men Suits",
+//     category_id: "9",
+//   },
+//   {
+//     id: "50",
+//     product_img: "https://i.ibb.co/mXq4h3D/men-suit4.jpg",
+//     product_name: "Unlisted Solid Stretch Slim-Fit Suit",
+//     product_desc: "",
+//     product_price: "130.00",
+//     category: "Men Suits",
+//     category_id: "9",
+//   },
+//   {
+//     id: "51",
+//     product_img: "https://i.ibb.co/xf9h65G/men-suit5.jpg",
+//     product_name: "Slim-Fit Gray/Brown Plaid Suit Separates",
+//     product_desc: "",
+//     product_price: "120.00",
+//     category: "Men Suits",
+//     category_id: "9",
+//   },
+//   {
+//     id: "52",
+//     product_img: "https://i.ibb.co/6np4fHs/men-hoodie1.jpg",
+//     product_name: "Signature Fleece Hoodie",
+//     product_desc: "",
+//     product_price: "40.00",
+//     category: "Men Sweaters",
+//     category_id: "10",
+//   },
+//   {
+//     id: "53",
+//     product_img: "https://i.ibb.co/dQvNsMS/men-hoodie2.jpg",
+//     product_name: "Powerblend Fleece Hoodie",
+//     product_desc: "",
+//     product_price: "35.99",
+//     category: "Men Sweaters",
+//     category_id: "10",
+//   },
+//   {
+//     id: "54",
+//     product_img: "https://i.ibb.co/y4ZY18t/men-hoodie3.jpg",
+//     product_name: "Mesh Hoodie",
+//     product_desc: "",
+//     product_price: "32.99",
+//     category: "Men Sweaters",
+//     category_id: "10",
+//   },
+//   {
+//     id: "55",
+//     product_img: "https://i.ibb.co/LrYCCfC/men-sweater1.jpg",
+//     product_name: "Pima Cable Quarter-Zip Sweater",
+//     product_desc: "",
+//     product_price: "30.00",
+//     category: "Men Sweaters",
+//     category_id: "10",
+//   },
+//   {
+//     id: "56",
+//     product_img: "https://i.ibb.co/QvR4t0H/men-sweater1.jpg",
+//     product_name: "Quarter Zip Merino Wool Blend Sweater",
+//     product_desc: "",
+//     product_price: "35.99",
+//     category: "Men Sweaters",
+//     category_id: "10",
+//   },
+//   {
+//     id: "57",
+//     product_img: "https://i.ibb.co/txrYwzF/men-jacket1.jpg",
+//     product_name: "Michael Kors Perforated Faux-Leather Moto Jacket",
+//     product_desc: "",
+//     product_price: "112.50",
+//     category: "Men Jackets",
+//     category_id: "11",
+//   },
+//   {
+//     id: "58",
+//     product_img: "https://i.ibb.co/87G5SWC/men-jacket2.jpg",
+//     product_name: "Two Pocket Hooded Trucker Jacket",
+//     product_desc: "",
+//     product_price: "112.50",
+//     category: "Men Jackets",
+//     category_id: "11",
+//   },
+//   {
+//     id: "59",
+//     product_img: "https://i.ibb.co/25PhHxg/men-jacket4.jpg",
+//     product_name: "Luke Wool-Blend Classic-Fit Peacoat",
+//     product_desc: "",
+//     product_price: "125.00",
+//     category: "Men Jackets",
+//     category_id: "11",
+//   },
+//   {
+//     id: "60",
+//     product_img: "https://i.ibb.co/LZPqLwq/men-jacket3.jpg",
+//     product_name: "Long Snorkel Coat",
+//     product_desc: "",
+//     product_price: "175.00",
+//     category: "Men Jackets",
+//     category_id: "11",
+//   },
+//   {
+//     id: "61",
+//     product_img: "https://i.ibb.co/MP2BZzS/men-jacket5.jpg",
+//     product_name: "Bateman Jacket",
+//     product_desc: "",
+//     product_price: "90.00",
+//     category: "Men Jackets",
+//     category_id: "11",
+//   },
+//   {
+//     id: "62",
+//     product_img: "https://i.ibb.co/W6kYr34/mens-bottoms2.jpg",
+//     product_name: "Lux Cottons Slim Fit Pants Tee",
+//     product_desc: "",
+//     product_price: "32.99",
+//     category: "Men Pants",
+//     category_id: "12",
+//   },
+//   {
+//     id: "63",
+//     product_img: "https://i.ibb.co/ydsVbfL/mens-bottoms3.jpg",
+//     product_name: "Microtwill Ultraflex Dress Pants",
+//     product_desc: "",
+//     product_price: "25.99",
+//     category: "Men Pants",
+//     category_id: "12",
+//   },
+//   {
+//     id: "64",
+//     product_img: "https://i.ibb.co/Wydjd4t/mens-bottoms4.jpg",
+//     product_name: "100% Wool Double-Reverse Dress Pants",
+//     product_desc: "",
+//     product_price: "25.99",
+//     category: "Men Pants",
+//     category_id: "12",
+//   },
+//   {
+//     id: "65",
+//     product_img: "https://i.ibb.co/j3Nnkxm/mens-bottoms1.jpg",
+//     product_name: "Men's Slim Fit Tech Solid Performance Dress Pants",
+//     product_desc: "",
+//     product_price: "30.99",
+//     category: "Men Pants",
+//     category_id: "12",
+//   },
+//   {
+//     id: "66",
+//     product_img: "https://i.ibb.co/B2K5bnj/mens-bottoms6.jpg",
+//     product_name: "Classic-Fit Jogger Pants",
+//     product_desc: "",
+//     product_price: "28.99",
+//     category: "Men Pants",
+//     category_id: "12",
+//   },
+//   {
+//     id: "67",
+//     product_img: "https://i.ibb.co/7nzxy8s/mens-bottoms8-midnight.jpg",
+//     product_name: "Logo Fleece Joggers",
+//     product_desc: "",
+//     product_price: "24.99",
+//     category: "Men Pants",
+//     category_id: "12",
+//   },
+//   {
+//     id: "68",
+//     product_img: "https://i.ibb.co/DtKyGZN/mens-bottoms7.jpg",
+//     product_name: "Jean-Cut Supreme Flex Pants",
+//     product_desc: "",
+//     product_price: "25.99",
+//     category: "Men Pants",
+//     category_id: "12",
+//   },
+//   {
+//     id: "69",
+//     product_img: "https://i.ibb.co/K0KgM0W/mens-bottoms5.jpg",
+//     product_name: "Classic-Fit Stretch Deck Pants",
+//     product_desc: "",
+//     product_price: "20.99",
+//     category: "Men Pants",
+//     category_id: "12",
+//   },
+//   {
+//     id: "70",
+//     product_img: "https://i.ibb.co/94NBtFx/shorts1.jpg",
+//     product_name: 'Classic Flight Cargo 14" Shorts',
+//     product_desc: "",
+//     product_price: "45.99",
+//     category: "Men Shorts",
+//     category_id: "13",
+//   },
+//   {
+//     id: "71",
+//     product_img: "https://i.ibb.co/hY14HGp/shorts2.jpg",
+//     product_name: "MVP Collections Big & Tall Print Drawstring Shorts",
+//     product_desc: "",
+//     product_price: "50.00",
+//     category: "Men Shorts",
+//     category_id: "13",
+//   },
+//   {
+//     id: "72",
+//     product_img: "https://i.ibb.co/2Y5x28h/shorts4.jpg",
+//     product_name: "Relaxed Fit Camouflage Cotton Cargo Shorts",
+//     product_desc: "",
+//     product_price: "45.99",
+//     category: "Men Shorts",
+//     category_id: "13",
+//   },
+//   {
+//     id: "73",
+//     product_img: "https://i.ibb.co/3v48jpT/shorts3.jpg",
+//     product_name: "Fleece Shorts",
+//     product_desc: "",
+//     product_price: "45.00",
+//     category: "Men Shorts",
+//     category_id: "13",
+//   },
+//   {
+//     id: "74",
+//     product_img: "https://i.ibb.co/C891dCx/shorts5.jpg",
+//     product_name: 'TH Flex Stretch 9" Shorts',
+//     product_desc: "",
+//     product_price: "45.99",
+//     category: "Men Shorts",
+//     category_id: "13",
+//   },
+//   {
+//     id: "85",
+//     product_img: "https://i.ibb.co/0KwjMLC/men-sneakers1.jpg",
+//     product_name: "Air Max Excee Running Sneakers",
+//     product_desc: "",
+//     product_price: "70.00",
+//     category: "Men Sneakers",
+//     category_id: "16",
+//   },
+//   {
+//     id: "86",
+//     product_img: "https://i.ibb.co/7bSnN0Q/men-sneakers2.jpg",
+//     product_name: "009 Casual Sneakers",
+//     product_desc: "",
+//     product_price: "45.00",
+//     category: "Men Sneakers",
+//     category_id: "16",
+//   },
+//   {
+//     id: "87",
+//     product_img: "https://i.ibb.co/HpwN2sd/men-sneakers3.jpg",
+//     product_name: "X_PLR Casual Sneakers",
+//     product_desc: "",
+//     product_price: "45.99",
+//     category: "Men Sneakers",
+//     category_id: "16",
+//   },
+//   {
+//     id: "88",
+//     product_img: "https://i.ibb.co/Wc8pCn2/men-sneakers4.jpg",
+//     product_name: "Shox R4 Running Sneakers",
+//     product_desc: "",
+//     product_price: "50.00",
+//     category: "Men Sneakers",
+//     category_id: "16",
+//   },
+//   {
+//     id: "89",
+//     product_img: "https://i.ibb.co/6XtNmbC/men-sneakers5.jpg",
+//     product_name: "Jordan Jumpman 2020",
+//     product_desc: "",
+//     product_price: "65.99",
+//     category: "Men Sneakers",
+//     category_id: "16",
+//   },
+
+//   {
+//     id: "99",
+//     product_img: "https://i.ibb.co/TbNgqph/mens-watches1.jpg",
+//     product_name: "The Minimalist Brown Leather Strap Watch 44mm",
+//     product_desc: "",
+//     product_price: "24.99",
+//     category: "Men Watches",
+//     category_id: "19",
+//   },
+//   {
+//     id: "100",
+//     product_img: "https://i.ibb.co/b5dbPXM/mens-watches2.jpg",
+//     product_name: "Chronograph Chief Black Watch",
+//     product_desc: "",
+//     product_price: "59.99",
+//     category: "Men Watches",
+//     category_id: "19",
+//   },
+//   {
+//     id: "101",
+//     product_img: "https://i.ibb.co/wKG7RxY/mens-watches3.jpg",
+//     product_name: "Chronograph Stainless Steel Watch",
+//     product_desc: "",
+//     product_price: "59.99",
+//     category: "Men Watches",
+//     category_id: "19",
+//   },
+//   {
+//     id: "102",
+//     product_img: "https://i.ibb.co/pZsZjKx/mens-watches6.jpg",
+//     product_name: "Citizen Promaster Diver Mens Blue Strap Watch\r\n",
+//     product_desc: "",
+//     product_price: "124.99",
+//     category: "Men Watches",
+//     category_id: "19",
+//   },
+//   {
+//     id: "103",
+//     product_img: "https://i.ibb.co/1Q4W0Vm/mens-bags1.jpg",
+//     product_name: "Slingpack",
+//     product_desc: "",
+//     product_price: "60.99",
+//     category: "Men Bags",
+//     category_id: "20",
+//   },
+//   {
+//     id: "104",
+//     product_img: "https://i.ibb.co/fp96vCn/mens-bags2.jpg",
+//     product_name: "Expandable Waist Pack",
+//     product_desc: "",
+//     product_price: "59.99",
+//     category: "Men Bags",
+//     category_id: "20",
+//   },
+//   {
+//     id: "105",
+//     product_img: "https://i.ibb.co/X7jzmV0/mens-bags3.jpg",
+//     product_name: "Hoops Elite Pro Backpack",
+//     product_desc: "",
+//     product_price: "59.99",
+//     category: "Men Bags",
+//     category_id: "20",
+//   },
+//   {
+//     id: "106",
+//     product_img: "https://i.ibb.co/xgYVg6D/mens-bags4.jpg",
+//     product_name: "Alexander Backpack",
+//     product_desc: "",
+//     product_price: "30.99",
+//     category: "Men Bags",
+//     category_id: "20",
+//   },
+//   {
+//     id: "107",
+//     product_img:
+//       "https://cdn.suitdirect.co.uk/upload/siteimages/large/ar23107mj_170_c.jpg",
+//     product_name: "Slim Fit Maverick Navy Herringbone Suit",
+//     product_desc:
+//       "Contemporary design meets heritage influence with Antique Rogue. Designed for the true trendsetter, an eye-catching colour palette spans across checked fabrics, bright plaids, and textures that elevate suits, shirts, and more. Antique Rogue’s unique suits combine legendary British tailoring with distinctive styling, coming together to create a timeless range that can be dressed up or down.",
+//     product_price: "430.00",
+//     category: "Men Suits",
+//     category_id: "9",
+//   },
+//   {
+//     id: "108",
+//     product_img: "img-66d75298d14dd2.54656557.png",
+//     product_name: "White T-shirt",
+//     product_desc:
+//       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris volutpat commodo ultrices. Vivamus ut mauris sed lorem bibendum eleifend a vitae velit. Nunc pretium est a turpis accumsan mattis. Nunc ut libero in tortor viverra maximus et sit amet enim. Praesent facilisis mi eget arcu pretium, eget pellentesque purus volutpat.",
+//     product_price: "10.99",
+//     category: "Men T-Shirts",
+//     category_id: "8",
+//   },
+//   {
+//     id: "109",
+//     product_img: "img-66d753fea5fa69.59880247.png",
+//     product_name: "White T-shirt",
+//     product_desc:
+//       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris volutpat commodo ultrices. Vivamus ut mauris sed lorem bibendum eleifend a vitae velit. Nunc pretium est a turpis accumsan mattis. Nunc ut libero in tortor viverra maximus et sit amet enim. Praesent facilisis mi eget arcu pretium, eget pellentesque purus volutpat.",
+//     product_price: "10.99",
+//     category: "Men T-Shirts",
+//     category_id: "8",
+//   },
+// ];
+
+
+<div class="side-bar">
+                <div class="widget-catagory mb-5">
+                  <h3 class="mb-2">Catergories</h3>
+                  <div class="catagories-menu">
+                    <ul class="menu-content">
+                      <h6
+                        data-toggle="collapse"
+                        class="category"
+                        href="#clothingCollapse"
+                        role="button"
+                        aria-expanded="false"
+                        aria-controls="clothingCollapse"
+                      >
+                        Women Clothing
+                      </h6>
+                      <ul
+                        class="sub-menu collapse clothingCollapse"
+                        id="clothingCollapse"
+                      >
+                        <li data-id="all" class="active">All</li>
+                        <li data-id="dresses">Dresses</li>
+                        <li data-id="tops">Tops</li>
+                        <li data-id="suits">Suits</li>
+                        <li data-id="sweaters">Sweaters</li>
+                        <li data-id="jackets">Jackets</li>
+                        <li data-id="bottoms">Bottoms</li>
+                        <li data-id="skirts">Skirts</li>
+                      </ul>
+                    </ul>
+                    <ul class="menu-content collapse show">
+                      <h6
+                        data-toggle="collapse"
+                        class="category"
+                        href="#shoesCollapse"
+                        role="button"
+                        aria-expanded="false"
+                        aria-controls="shoesCollapse"
+                      >
+                        Women Shoes
+                      </h6>
+                      <ul
+                        class="sub-menu collapse shoesCollapse"
+                        id="shoesCollapse"
+                      >
+                        <li data-id="boots">Boots</li>
+                        <li data-id="heels">Heels</li>
+                      </ul>
+                    </ul>
+                    <ul class="menu-content collapse show">
+                      <h6
+                        data-toggle="collapse"
+                        class="category"
+                        href="#accessoriesCollapse"
+                        role="button"
+                        aria-expanded="false"
+                        aria-controls="accessoriesCollapse"
+                      >
+                        Accessories
+                      </h6>
+                      <ul
+                        class="sub-menu collapse accessoriesCollapse"
+                        id="accessoriesCollapse"
+                      >
+                        <li data-id="bags">Bags</li>
+                        <li data-id="watches">Watches</li>
+                      </ul>
+                    </ul>
+
+                    <!-- price filter -->
+                    <div class="price-filter">
+                      <h6
+                        data-toggle="collapse"
+                        class="category"
+                        href="#priceCollapse"
+                        role="button"
+                        aria-expanded="false"
+                        aria-controls="priceCollapse"
+                      >
+                        Price
+                      </h6>
+                      <form
+                        action=""
+                        class="form-group collapse priceCollapse"
+                        id="priceCollapse"
+                      >
+                        <input
+                          type="radio"
+                          name="price"
+                          value="0-10"
+                          id="price"
+                        />
+                        $0 - $49
+                        <br />
+                        <input
+                          type="radio"
+                          name="price"
+                          value="50-75"
+                          id="price"
+                        />
+                        $50 - $75
+                        <br />
+                        <input
+                          type="radio"
+                          name="price"
+                          value="50-75"
+                          id="price"
+                        />
+                        $76 - $99
+                        <br />
+                        <input
+                          type="radio"
+                          name="price"
+                          value="50-75"
+                          id="price"
+                        />
+                        $100++
+                        <br />
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              // function filterBySize(items, size) {
+//   return items.filter((item) => item.size === size.size);
+// }
+
+// let size = filterBySize(data, ["X-Small", "Small", "Medium", "Large", "X-Large"]);
+// console.log(size);
+
+
+
+
+// function filterByValue(items, brand, color, size){
+//   let arr = [];
+//   items.filter((item) =>{
+//     arr.push(item.size);
+//   });
+//   console.log(arr);
+  
+//   for (let i = 0; i < arr.length; i++) {
+//     console.log(arr[i]);
+    
+//     // const innerArray = arr[i];
+  
+//     // for (let j = 0; j < innerArray.length; j++) {
+//     //   console.log(innerArray[j]);
+//     // }
+//   }
+
+//   items.filter((item) =>{
+//     // console.log(item.size);    
+// //  console.log(arr);
+ 
+    
+    
+//     // console.log(item.brand === brand || item.color === color || arr.includes(size));
+//   });
+ 
+// }
+
+
+
+// function brandFilterPagination(data){
+
+// subMenu.forEach((menu) =>{
+//   let li = menu.querySelectorAll('li');
+
+//   li.forEach((item) =>{
+//     item.addEventListener('click', function(e){
+//       console.log(e.target.id);
+//       const container = document.querySelector(".list");
+//       container.innerHTML = ""; // Clear existing items
+
+//       data.forEach((item) =>{
+//         if(item.brand === e.target.id){
+//           const filteredData = {}
+//           const paginatedItems = paginate(womenDressesFilter, currentPage, itemsPerPage);
+
+//           renderItems(womenDressesFilter, currentPage);
+//           renderPagination(Math.ceil(womenDressesFilter.length / itemsPerPage));
+//         }
+//       })
+//     })
+
+//   })
+// })
+// }
+
+// brandFilterPagination(womenDressesFilter);
+
+
+filterState.size.some(element => item.size.includes(element))

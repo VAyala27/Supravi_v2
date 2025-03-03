@@ -1,4 +1,3 @@
-REGISTRATION
 const firstname = document.querySelector('#firstname');
 const lastname = document.querySelector('#lastname');
 const email = document.querySelector('#email');
@@ -30,3 +29,13 @@ registerBtn.addEventListener('click', () => {
     emptyValidation(password, 3, "Please provide a password");
     emptyValidation(password2, 4, "Please provide another password");
 });
+
+function emptyValidation(inputField, index, text) {
+    if (inputField.value === "") {
+        let error = document.getElementsByClassName('text-danger')[index];
+        error.textContent = text;
+    } else {
+        let error = document.getElementsByClassName('text-danger')[index];
+        error.textContent = "";
+    }
+}

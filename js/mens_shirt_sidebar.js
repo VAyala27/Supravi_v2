@@ -109,11 +109,11 @@ const filterState = {
   maxPrice: 1000,
 };
 
-let womenDressesFilter = filterByCategory(data, "Women Dresses");
+let menShirtsFilter = filterByCategory(data, "Men T-Shirts");
 
-const uniqueBrandData = removeDuplicatesByKey(womenDressesFilter, "brand");
-const uniqueColorData = removeDuplicatesByKey(womenDressesFilter, "color");
-const uniqueSizeData = removeDuplicatesByKey(womenDressesFilter, "size");
+const uniqueBrandData = removeDuplicatesByKey(menShirtsFilter, "brand");
+const uniqueColorData = removeDuplicatesByKey(menShirtsFilter, "color");
+const uniqueSizeData = removeDuplicatesByKey(menShirtsFilter, "size");
 
 // SIZE
 const arr = [];
@@ -248,7 +248,7 @@ function applyFilters() {
           filterState.color === "" &&
           filterState.size.length === 0
         ) {
-          filteredData = filterByCategory(data, "Women Dresses");
+          filteredData = filterByCategory(data, "Men T-Shirts");
           const paginatedItems = paginate(
             filteredData,
             currentPage,
@@ -312,7 +312,7 @@ function applyFilters() {
           filterState.color === "" &&
           filterState.size.length === 0
         ) {
-          filteredData = filterByCategory(data, "Women Dresses");
+          filteredData = filterByCategory(data, "Men T-Shirts");
           const paginatedItems = paginate(
             filteredData,
             currentPage,
@@ -363,7 +363,7 @@ function applyFilters() {
 
 // Function to filter and display data
 function filterAndDisplayData() {
-  filteredData = womenDressesFilter.filter((item) => {
+  filteredData = menShirtsFilter.filter((item) => {
     // console.log(filterState.size);
     // console.log(item.size);
     // console.log(filterState.size.includes(item.size));
@@ -421,7 +421,7 @@ function filterAndDisplayData() {
   renderPagination(Math.ceil(filteredData.length / itemsPerPage));
 }
 
-filteredData = filterByCategory(data, "Women Dresses");
+filteredData = filterByCategory(data, "Men T-Shirts");
 const paginatedItems = paginate(filteredData, currentPage, itemsPerPage);
 
 renderItems(filteredData, currentPage);

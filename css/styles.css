@@ -202,7 +202,7 @@ header{
   padding: 3% 2%;
 }
 
-.counter {
+.counter,.mobile-view-counter {
   position: absolute;
   top: -14px;
   font-family: "Oswald";
@@ -386,10 +386,6 @@ input:focus {
   color: rgba(255, 255, 255, 0.9);
 }
 
-.list i {
-  padding: 1rem;
-}
-
 .list li {
   margin-bottom: 5px;
 }
@@ -484,6 +480,7 @@ input:focus {
 /* main */
 main {
   background: #fafafa;
+  overflow: hidden;
 }
 
 .carousel-item img {
@@ -663,6 +660,22 @@ main {
   display: block !important;
 }
 
+/* TERMS OF SERVICE */
+#terms_services ul{
+  list-style: disc !important;
+  padding: 0px 30px;
+}
+
+.cartdisp{
+  background: #fff;
+  padding: 20px;
+}
+
+
+.social-media{
+  gap: 1.5rem;
+}
+
 @media (max-width: 750px) {
   .mobile-view{
     display: block !important;
@@ -794,4 +807,89 @@ main {
 .men-discounts,.women-discounts{
   margin-bottom: 2.5rem;
 }
+}
+
+
+#preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+.loader {
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid #3498db;
+  width: 120px;
+  height: 120px;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* #search-form{
+  position: relative;
+  overflow: auto;
+} */
+
+#search-results{
+  display: none;
+  position: absolute;
+  width: 70%;
+  right: 10%;
+  left: 15%;
+  top: 65px;
+  overflow: hidden;
+  max-height: 500px;
+  background-color: #f9f9f9;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  padding: 20px;
+}
+
+#search-results a{
+  margin-bottom: 5px;
+  display: block;
+}
+
+.pagination{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  gap: .5rem;
+}
+
+.pagination button{
+  border-radius: 6px;
+  background: #202020;
+  max-width: auto;
+  color: #fff;
+  padding: 0px 6px;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.pagination button:hover{
+background: #575656;
+}
+
+.pagination button.active{
+  background: purple;
 }

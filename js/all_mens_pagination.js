@@ -1,0 +1,1150 @@
+const preloader = document.getElementById("preloader");
+const content = document.getElementById("content");
+
+const data = [
+  {
+    id: "1",
+    product_img: "https://i.ibb.co/tpXN9Vr/dress-1.jpg",
+    product_name: "Karl Lagerfeld Floral-Print Wrap Dress",
+    product_desc: "",
+    product_price: "70.99",
+    category: "Women Dresses",
+    category_id: "1",
+  },
+  {
+    id: "2",
+    product_img: "https://i.ibb.co/JQncn8w/dress-2.jpg",
+    product_name: "Floral-Print Shift Dress",
+    product_desc: "",
+    product_price: "40.00",
+    category: "Women Dresses",
+    category_id: "1",
+  },
+  {
+    id: "3",
+    product_img: "https://i.ibb.co/RSbN0Kj/dress-3.jpg",
+    product_name: "Sequined & Chiffon Gown",
+    product_desc: "",
+    product_price: "69.00",
+    category: "Women Dresses",
+    category_id: "1",
+  },
+  {
+    id: "4",
+    product_img: "https://i.ibb.co/yBN2RFH/dress-4.jpg",
+    product_name: "Cotton Off-The-Shoulder Dress",
+    product_desc: "",
+    product_price: "40.00",
+    category: "Women Dresses",
+    category_id: "1",
+  },
+  {
+    id: "5",
+    product_img: "https://i.ibb.co/TYwKyTR/dress-5.jpg",
+    product_name: "Satin Gown",
+    product_desc: "",
+    product_price: "145.00",
+    category: "Women Dresses",
+    category_id: "1",
+  },
+  {
+    id: "6",
+    product_img: "https://i.ibb.co/JmxgKbt/womens-tops1.jpg",
+    product_name: "Colorblocked Asymmetrical Top",
+    product_desc: "",
+    product_price: "24.99",
+    category: "Women Tops",
+    category_id: "2",
+  },
+  {
+    id: "7",
+    product_img: "https://i.ibb.co/KzYgQTL/womens-tops2.jpg",
+    product_name: "I.N.C. Side-Tie Top",
+    product_desc: "",
+    product_price: "19.99",
+    category: "Women Tops",
+    category_id: "2",
+  },
+  {
+    id: "8",
+    product_img: "https://i.ibb.co/nmcNDwp/womens-tops3.jpg",
+    product_name: "Plaid Utility Shirt",
+    product_desc: "",
+    product_price: "20.99",
+    category: "Women Tops",
+    category_id: "2",
+  },
+  {
+    id: "9",
+    product_img: "https://i.ibb.co/jMXVH9Q/womens-tops4.jpg",
+    product_name: "Shiny Plaid Flutter-Sleeve Top",
+    product_desc: "",
+    product_price: "22.99",
+    category: "Women Tops",
+    category_id: "2",
+  },
+  {
+    id: "10",
+    product_img: "https://i.ibb.co/K5Bzdhs/womens-tops5.jpg",
+    product_name: "Metallic-Stripe Blouse",
+    product_desc: "",
+    product_price: "25.99",
+    category: "Women Tops",
+    category_id: "2",
+  },
+  {
+    id: "11",
+    product_img: "https://i.ibb.co/ZYN9F0M/womens-tops6.jpg",
+    product_name: "Printed Mesh Tiered Shirt",
+    product_desc: "",
+    product_price: "27.99",
+    category: "Women Tops",
+    category_id: "2",
+  },
+  {
+    id: "12",
+    product_img: "https://i.ibb.co/vHCnDSV/women-suit1.jpg",
+    product_name:
+      "3-Button Tweed Jacket With Belt And Straight-Leg Dress Pants",
+    product_desc: "",
+    product_price: "150.00",
+    category: "Women Suits",
+    category_id: "3",
+  },
+  {
+    id: "13",
+    product_img: "https://i.ibb.co/KwM85YY/women-suit2.jpg",
+    product_name: "Tweed Button Blazer And Belted Pencil Skirt",
+    product_desc: "",
+    product_price: "100.00",
+    category: "Women Suits",
+    category_id: "3",
+  },
+  {
+    id: "14",
+    product_img: "https://i.ibb.co/yq6rZX3/women-suit3.jpg",
+    product_name: "3-4 Sleeve Skirt Suit",
+    product_desc: "",
+    product_price: "99.99",
+    category: "Women Suits",
+    category_id: "3",
+  },
+  {
+    id: "15",
+    product_img: "https://i.ibb.co/SB0Dsj0/women-suit4.jpg",
+    product_name: "Contrast-Trim Blazer, Knot-Neck Top & Slim-Fit Pants",
+    product_desc: "",
+    product_price: "125.00",
+    category: "Women Suits",
+    category_id: "3",
+  },
+  {
+    id: "16",
+    product_img: "https://i.ibb.co/zsqsxs3/women-suit5.jpg",
+    product_name:
+      "Stand Collar Blazer, Printed Shell Blouse & Button-Detail Pants",
+    product_desc: "",
+    product_price: "100.00",
+    category: "Women Suits",
+    category_id: "3",
+  },
+  {
+    id: "17",
+    product_img: "https://i.ibb.co/ss2Z879/women-sweater1.jpg",
+    product_name: "Chevron Pointelle Cardigan",
+    product_desc: "",
+    product_price: "59.50",
+    category: "Women Sweaters",
+    category_id: "4",
+  },
+  {
+    id: "18",
+    product_img: "https://i.ibb.co/NmBXxTr/women-sweater2.jpg",
+    product_name: "Striped Sweater",
+    product_desc: "",
+    product_price: "30.00",
+    category: "Women Sweaters",
+    category_id: "4",
+  },
+  {
+    id: "19",
+    product_img: "https://i.ibb.co/ZMv4vvw/women-sweater3.jpg",
+    product_name: "INC Ribbed Pullover Sweater",
+    product_desc: "",
+    product_price: "45.50",
+    category: "Women Sweaters",
+    category_id: "4",
+  },
+  {
+    id: "20",
+    product_img: "https://i.ibb.co/89tsQS3/women-sweater4.jpg",
+    product_name: "Cold-Shoulder Sweater",
+    product_desc: "",
+    product_price: "40.00",
+    category: "Women Sweaters",
+    category_id: "4",
+  },
+  {
+    id: "21",
+    product_img: "https://i.ibb.co/hCHqhT3/women-sweater5.jpg",
+    product_name: "Button Sleeve Shrug",
+    product_desc: "",
+    product_price: "49.00",
+    category: "Women Sweaters",
+    category_id: "4",
+  },
+  {
+    id: "22",
+    product_img: "https://i.ibb.co/XCRf4sG/women-jacket1.jpg",
+    product_name: "Leather Moto Jacket",
+    product_desc: "",
+    product_price: "250.00",
+    category: "Women Jackets",
+    category_id: "5",
+  },
+  {
+    id: "23",
+    product_img: "https://i.ibb.co/0qBWRmf/women-jacket2.jpg",
+    product_name: "INC Knit & Denim Hoodie Jacket",
+    product_desc: "",
+    product_price: "60.00",
+    category: "Women Jackets",
+    category_id: "5",
+  },
+  {
+    id: "24",
+    product_img: "https://i.ibb.co/7YjdxJx/women-jacket3.jpg",
+    product_name: "Twill Jacket",
+    product_desc: "",
+    product_price: "50.00",
+    category: "Women Jackets",
+    category_id: "5",
+  },
+  {
+    id: "25",
+    product_img: "https://i.ibb.co/mJmSL35/women-jacket4.jpg",
+    product_name: "Hooded Faux-Fur-Trim Anorak Jacket",
+    product_desc: "",
+    product_price: "99.99",
+    category: "Women Jackets",
+    category_id: "5",
+  },
+  {
+    id: "26",
+    product_img: "https://i.ibb.co/7Q2pTSc/women-jacket5.jpg",
+    product_name: "Belted Double-Breasted Hooded Trench Coat",
+    product_desc: "",
+    product_price: "120.00",
+    category: "Women Jackets",
+    category_id: "5",
+  },
+  {
+    id: "27",
+    product_img: "https://i.ibb.co/QKdR1pX/womens-bottoms1.jpg",
+    product_name: "Tummy-Control Skinny Pants",
+    product_desc: "",
+    product_price: "24.99",
+    category: "Women Pants",
+    category_id: "6",
+  },
+  {
+    id: "28",
+    product_img: "https://i.ibb.co/gVkMDnM/womens-bottoms2.jpg",
+    product_name: "INC Petite Skinny Tummy Control Jeans",
+    product_desc: "",
+    product_price: "29.99",
+    category: "Women Pants",
+    category_id: "6",
+  },
+  {
+    id: "29",
+    product_img: "https://i.ibb.co/WyKG9c9/womens-bottoms3.jpg",
+    product_name: "Tummy-Control Straight-leg Pants",
+    product_desc: "",
+    product_price: "25.99",
+    category: "Women Pants",
+    category_id: "6",
+  },
+  {
+    id: "30",
+    product_img: "https://i.ibb.co/2nx8G8h/womens-bottoms4.jpg",
+    product_name: "Fleece-Lined Joggers",
+    product_desc: "",
+    product_price: "19.99",
+    category: "Women Pants",
+    category_id: "6",
+  },
+  {
+    id: "31",
+    product_img: "https://i.ibb.co/N1CH3v6/womens-bottoms5.jpg",
+    product_name: "Cambridge Tummy-Control Pants",
+    product_desc: "",
+    product_price: "22.99",
+    category: "Women Pants",
+    category_id: "6",
+  },
+  {
+    id: "32",
+    product_img: "https://i.ibb.co/Lp8DH8R/womens-bottoms6.jpg",
+    product_name: "Logo Joggers",
+    product_desc: "",
+    product_price: "28.99",
+    category: "Women Pants",
+    category_id: "6",
+  },
+  {
+    id: "33",
+    product_img: "https://i.ibb.co/Vt3sRtz/womens-bottoms7.jpg",
+    product_name: "Tummy Control Trouser",
+    product_desc: "",
+    product_price: "26.99",
+    category: "Women Pants",
+    category_id: "6",
+  },
+  {
+    id: "34",
+    product_img: "https://i.ibb.co/HG8bmWw/womens-bottoms8.jpg",
+    product_name: "Effortless Easy Pant",
+    product_desc: "",
+    product_price: "21.99",
+    category: "Women Pants",
+    category_id: "6",
+  },
+  {
+    id: "35",
+    product_img: "https://i.ibb.co/CVpYBCQ/skirt1.jpg",
+    product_name: "Scuba Pencil Skirt",
+    product_desc: "",
+    product_price: "49.50",
+    category: "Women Skirts",
+    category_id: "7",
+  },
+  {
+    id: "36",
+    product_img: "https://i.ibb.co/cvF1FRr/skirt2.jpg",
+    product_name: "Ponte-Knit Midi Skirt",
+    product_desc: "",
+    product_price: "69.00",
+    category: "Women Skirts",
+    category_id: "7",
+  },
+  {
+    id: "37",
+    product_img: "https://i.ibb.co/PYzKCLP/skirt3.jpg",
+    product_name: "Pleated Ruffled Skort",
+    product_desc: "",
+    product_price: "45.50",
+    category: "Women Skirts",
+    category_id: "7",
+  },
+  {
+    id: "38",
+    product_img: "https://i.ibb.co/0X4mKFz/skirt4.jpg",
+    product_name: "Sequined Skirt",
+    product_desc: "",
+    product_price: "89.50",
+    category: "Women Skirts",
+    category_id: "7",
+  },
+  {
+    id: "39",
+    product_img: "https://i.ibb.co/bB6rVgd/skirt5.jpg",
+    product_name: "Tiered Smocked Skirt",
+    product_desc: "",
+    product_price: "24.99",
+    category: "Women Skirts",
+    category_id: "7",
+  },
+  {
+    id: "40",
+    product_img: "https://i.ibb.co/4K5WS5z/mens-shirt1.jpg",
+    product_name: "Flannel Shirt",
+    product_desc: "",
+    product_price: "19.99",
+    category: "Men T-Shirts",
+    category_id: "8",
+  },
+  {
+    id: "41",
+    product_img: "https://i.ibb.co/nrQgjfG/mens-shirt2.jpg",
+    product_name: "Tech™ Short Sleeve",
+    product_desc: "",
+    product_price: "20.00",
+    category: "Men T-Shirts",
+    category_id: "8",
+  },
+  {
+    id: "42",
+    product_img: "https://i.ibb.co/9smM992/mens-shirt3.jpg",
+    product_name: "Soft Touch Stretch Henley",
+    product_desc: "",
+    product_price: "21.99",
+    category: "Men T-Shirts",
+    category_id: "8",
+  },
+  {
+    id: "43",
+    product_img: "https://i.ibb.co/z2MKXY7/mens-shirt4.jpg",
+    product_name: "Ivy Logo T-Shirt",
+    product_desc: "",
+    product_price: "20.99",
+    category: "Men T-Shirts",
+    category_id: "8",
+  },
+  {
+    id: "44",
+    product_img: "https://i.ibb.co/Tk3FC3Q/mens-shirt5.jpg",
+    product_name: "Drexel Strip Polo Shirt",
+    product_desc: "",
+    product_price: "22.99",
+    category: "Men T-Shirts",
+    category_id: "8",
+  },
+  {
+    id: "45",
+    product_img: "https://i.ibb.co/rwTGJyH/mens-shirt7.jpg",
+    product_name: "Classic-Fit Ivy Polo",
+    product_desc: "",
+    product_price: "20.99",
+    category: "Men T-Shirts",
+    category_id: "8",
+  },
+  {
+    id: "46",
+    product_img: "https://i.ibb.co/2hZQ7kV/mens-shirt6.jpg",
+    product_name: "Hemenway Regular-Fit Stripe Shirt",
+    product_desc: "",
+    product_price: "25.99",
+    category: "Men T-Shirts",
+    category_id: "8",
+  },
+  {
+    id: "47",
+    product_img: "https://i.ibb.co/r4JkgWG/men-suit1.jpg",
+    product_name: "Classic-Fit Solid Ultraflex Suit Separates",
+    product_desc: "",
+    product_price: "125.00",
+    category: "Men Suits",
+    category_id: "9",
+  },
+  {
+    id: "48",
+    product_img: "https://i.ibb.co/DQFdGNw/men-suit2.jpg",
+    product_name: "Stretch Performance Solid Slim-Fit Suit Separates",
+    product_desc: "",
+    product_price: "129.99",
+    category: "Men Suits",
+    category_id: "9",
+  },
+  {
+    id: "49",
+    product_img: "https://i.ibb.co/VMzNwDW/men-suit3.jpg",
+    product_name: "Solid Ultraflex Classic-Fit Suit Separates",
+    product_desc: "",
+    product_price: "125.00",
+    category: "Men Suits",
+    category_id: "9",
+  },
+  {
+    id: "50",
+    product_img: "https://i.ibb.co/mXq4h3D/men-suit4.jpg",
+    product_name: "Unlisted Solid Stretch Slim-Fit Suit",
+    product_desc: "",
+    product_price: "130.00",
+    category: "Men Suits",
+    category_id: "9",
+  },
+  {
+    id: "51",
+    product_img: "https://i.ibb.co/xf9h65G/men-suit5.jpg",
+    product_name: "Slim-Fit Gray/Brown Plaid Suit Separates",
+    product_desc: "",
+    product_price: "120.00",
+    category: "Men Suits",
+    category_id: "9",
+  },
+  {
+    id: "52",
+    product_img: "https://i.ibb.co/6np4fHs/men-hoodie1.jpg",
+    product_name: "Signature Fleece Hoodie",
+    product_desc: "",
+    product_price: "40.00",
+    category: "Men Sweaters",
+    category_id: "10",
+  },
+  {
+    id: "53",
+    product_img: "https://i.ibb.co/dQvNsMS/men-hoodie2.jpg",
+    product_name: "Powerblend Fleece Hoodie",
+    product_desc: "",
+    product_price: "35.99",
+    category: "Men Sweaters",
+    category_id: "10",
+  },
+  {
+    id: "54",
+    product_img: "https://i.ibb.co/y4ZY18t/men-hoodie3.jpg",
+    product_name: "Mesh Hoodie",
+    product_desc: "",
+    product_price: "32.99",
+    category: "Men Sweaters",
+    category_id: "10",
+  },
+  {
+    id: "55",
+    product_img: "https://i.ibb.co/LrYCCfC/men-sweater1.jpg",
+    product_name: "Pima Cable Quarter-Zip Sweater",
+    product_desc: "",
+    product_price: "30.00",
+    category: "Men Sweaters",
+    category_id: "10",
+  },
+  {
+    id: "56",
+    product_img: "https://i.ibb.co/QvR4t0H/men-sweater1.jpg",
+    product_name: "Quarter Zip Merino Wool Blend Sweater",
+    product_desc: "",
+    product_price: "35.99",
+    category: "Men Sweaters",
+    category_id: "10",
+  },
+  {
+    id: "57",
+    product_img: "https://i.ibb.co/txrYwzF/men-jacket1.jpg",
+    product_name: "Michael Kors Perforated Faux-Leather Moto Jacket",
+    product_desc: "",
+    product_price: "112.50",
+    category: "Men Jackets",
+    category_id: "11",
+  },
+  {
+    id: "58",
+    product_img: "https://i.ibb.co/87G5SWC/men-jacket2.jpg",
+    product_name: "Two Pocket Hooded Trucker Jacket",
+    product_desc: "",
+    product_price: "112.50",
+    category: "Men Jackets",
+    category_id: "11",
+  },
+  {
+    id: "59",
+    product_img: "https://i.ibb.co/25PhHxg/men-jacket4.jpg",
+    product_name: "Luke Wool-Blend Classic-Fit Peacoat",
+    product_desc: "",
+    product_price: "125.00",
+    category: "Men Jackets",
+    category_id: "11",
+  },
+  {
+    id: "60",
+    product_img: "https://i.ibb.co/LZPqLwq/men-jacket3.jpg",
+    product_name: "Long Snorkel Coat",
+    product_desc: "",
+    product_price: "175.00",
+    category: "Men Jackets",
+    category_id: "11",
+  },
+  {
+    id: "61",
+    product_img: "https://i.ibb.co/MP2BZzS/men-jacket5.jpg",
+    product_name: "Bateman Jacket",
+    product_desc: "",
+    product_price: "90.00",
+    category: "Men Jackets",
+    category_id: "11",
+  },
+  {
+    id: "62",
+    product_img: "https://i.ibb.co/W6kYr34/mens-bottoms2.jpg",
+    product_name: "Lux Cottons Slim Fit Pants Tee",
+    product_desc: "",
+    product_price: "32.99",
+    category: "Men Pants",
+    category_id: "12",
+  },
+  {
+    id: "63",
+    product_img: "https://i.ibb.co/ydsVbfL/mens-bottoms3.jpg",
+    product_name: "Microtwill Ultraflex Dress Pants",
+    product_desc: "",
+    product_price: "25.99",
+    category: "Men Pants",
+    category_id: "12",
+  },
+  {
+    id: "64",
+    product_img: "https://i.ibb.co/Wydjd4t/mens-bottoms4.jpg",
+    product_name: "100% Wool Double-Reverse Dress Pants",
+    product_desc: "",
+    product_price: "25.99",
+    category: "Men Pants",
+    category_id: "12",
+  },
+  {
+    id: "65",
+    product_img: "https://i.ibb.co/j3Nnkxm/mens-bottoms1.jpg",
+    product_name: "Men's Slim Fit Tech Solid Performance Dress Pants",
+    product_desc: "",
+    product_price: "30.99",
+    category: "Men Pants",
+    category_id: "12",
+  },
+  {
+    id: "66",
+    product_img: "https://i.ibb.co/B2K5bnj/mens-bottoms6.jpg",
+    product_name: "Classic-Fit Jogger Pants",
+    product_desc: "",
+    product_price: "28.99",
+    category: "Men Pants",
+    category_id: "12",
+  },
+  {
+    id: "67",
+    product_img: "https://i.ibb.co/7nzxy8s/mens-bottoms8-midnight.jpg",
+    product_name: "Logo Fleece Joggers",
+    product_desc: "",
+    product_price: "24.99",
+    category: "Men Pants",
+    category_id: "12",
+  },
+  {
+    id: "68",
+    product_img: "https://i.ibb.co/DtKyGZN/mens-bottoms7.jpg",
+    product_name: "Jean-Cut Supreme Flex Pants",
+    product_desc: "",
+    product_price: "25.99",
+    category: "Men Pants",
+    category_id: "12",
+  },
+  {
+    id: "69",
+    product_img: "https://i.ibb.co/K0KgM0W/mens-bottoms5.jpg",
+    product_name: "Classic-Fit Stretch Deck Pants",
+    product_desc: "",
+    product_price: "20.99",
+    category: "Men Pants",
+    category_id: "12",
+  },
+  {
+    id: "70",
+    product_img: "https://i.ibb.co/94NBtFx/shorts1.jpg",
+    product_name: 'Classic Flight Cargo 14" Shorts',
+    product_desc: "",
+    product_price: "45.99",
+    category: "Men Shorts",
+    category_id: "13",
+  },
+  {
+    id: "71",
+    product_img: "https://i.ibb.co/hY14HGp/shorts2.jpg",
+    product_name: "MVP Collections Big & Tall Print Drawstring Shorts",
+    product_desc: "",
+    product_price: "50.00",
+    category: "Men Shorts",
+    category_id: "13",
+  },
+  {
+    id: "72",
+    product_img: "https://i.ibb.co/2Y5x28h/shorts4.jpg",
+    product_name: "Relaxed Fit Camouflage Cotton Cargo Shorts",
+    product_desc: "",
+    product_price: "45.99",
+    category: "Men Shorts",
+    category_id: "13",
+  },
+  {
+    id: "73",
+    product_img: "https://i.ibb.co/3v48jpT/shorts3.jpg",
+    product_name: "Fleece Shorts",
+    product_desc: "",
+    product_price: "45.00",
+    category: "Men Shorts",
+    category_id: "13",
+  },
+  {
+    id: "74",
+    product_img: "https://i.ibb.co/C891dCx/shorts5.jpg",
+    product_name: 'TH Flex Stretch 9" Shorts',
+    product_desc: "",
+    product_price: "45.99",
+    category: "Men Shorts",
+    category_id: "13",
+  },
+  {
+    id: "75",
+    product_img: "https://i.ibb.co/6Jwpg5s/women-boots1.jpg",
+    product_name: "Joan of Arctic Wedge II Waterproof Chelsea Booties",
+    product_desc: "",
+    product_price: "45.99",
+    category: "Women Boots",
+    category_id: "14",
+  },
+  {
+    id: "76",
+    product_img: "https://i.ibb.co/QYjjdQ7/women-boots2.jpg",
+    product_name: 'Waterproof 6" Premium Boots',
+    product_desc: "",
+    product_price: "50.00",
+    category: "Women Boots",
+    category_id: "14",
+  },
+  {
+    id: "77",
+    product_img: "https://i.ibb.co/1vkpVzS/women-boots3.jpg",
+    product_name: "Explorer Joan Waterproof Booties",
+    product_desc: "",
+    product_price: "45.99",
+    category: "Women Boots",
+    category_id: "14",
+  },
+  {
+    id: "78",
+    product_img: "https://i.ibb.co/NNBdhhj/women-boots4.jpg",
+    product_name: "Jayne Waterproof Fleece-Lined Cuffed Boots",
+    product_desc: "",
+    product_price: "50.00",
+    category: "Women Boots",
+    category_id: "14",
+  },
+  {
+    id: "79",
+    product_img: "https://i.ibb.co/Rj1z8XM/women-boots5.jpg",
+    product_name: "Out N About Bootie Slippers",
+    product_desc: "",
+    product_price: "45.99",
+    category: "Women Boots",
+    category_id: "14",
+  },
+  {
+    id: "80",
+    product_img: "https://i.ibb.co/LxDFVjF/women-heels1.jpg",
+    product_name: "Danya Dress Sandals\r\n",
+    product_desc: "",
+    product_price: "45.99",
+    category: "Women Heels",
+    category_id: "15",
+  },
+  {
+    id: "81",
+    product_img: "https://i.ibb.co/2g1cZXJ/women-heels4.jpg",
+    product_name: "Dorothy Flex Pumps",
+    product_desc: "",
+    product_price: "50.00",
+    category: "Women Heels",
+    category_id: "15",
+  },
+  {
+    id: "82",
+    product_img: "https://i.ibb.co/gt12TVP/women-heels5.jpg",
+    product_name: "Dori Kitten Heel Pumps",
+    product_desc: "",
+    product_price: "45.99",
+    category: "Women Heels",
+    category_id: "15",
+  },
+  {
+    id: "83",
+    product_img: "https://i.ibb.co/Ph3DCtK/women-heels3.jpg",
+    product_name: "Verrda 2 Embellished Platform Dress Sandals",
+    product_desc: "",
+    product_price: "50.00",
+    category: "Women Heels",
+    category_id: "15",
+  },
+  {
+    id: "84",
+    product_img: "https://i.ibb.co/G3kQPtm/women-heels2.jpg",
+    product_name: "INC Carma Pointed Toe Studded Kitten Heel Pumps",
+    product_desc: "",
+    product_price: "45.99",
+    category: "Women Heels",
+    category_id: "15",
+  },
+  {
+    id: "85",
+    product_img: "https://i.ibb.co/0KwjMLC/men-sneakers1.jpg",
+    product_name: "Air Max Excee Running Sneakers",
+    product_desc: "",
+    product_price: "70.00",
+    category: "Men Sneakers",
+    category_id: "16",
+  },
+  {
+    id: "86",
+    product_img: "https://i.ibb.co/7bSnN0Q/men-sneakers2.jpg",
+    product_name: "009 Casual Sneakers",
+    product_desc: "",
+    product_price: "45.00",
+    category: "Men Sneakers",
+    category_id: "16",
+  },
+  {
+    id: "87",
+    product_img: "https://i.ibb.co/HpwN2sd/men-sneakers3.jpg",
+    product_name: "X_PLR Casual Sneakers",
+    product_desc: "",
+    product_price: "45.99",
+    category: "Men Sneakers",
+    category_id: "16",
+  },
+  {
+    id: "88",
+    product_img: "https://i.ibb.co/Wc8pCn2/men-sneakers4.jpg",
+    product_name: "Shox R4 Running Sneakers",
+    product_desc: "",
+    product_price: "50.00",
+    category: "Men Sneakers",
+    category_id: "16",
+  },
+  {
+    id: "89",
+    product_img: "https://i.ibb.co/6XtNmbC/men-sneakers5.jpg",
+    product_name: "Jordan Jumpman 2020",
+    product_desc: "",
+    product_price: "65.99",
+    category: "Men Sneakers",
+    category_id: "16",
+  },
+  {
+    id: "90",
+    product_img: "https://i.ibb.co/VDQtv53/womens-watches1.jpg",
+    product_name: "Crystal Stainless Steel Bracelet Watch 32mm",
+    product_desc: "",
+    product_price: "24.99",
+    category: "Women Watches",
+    category_id: "17",
+  },
+  {
+    id: "91",
+    product_img: "https://i.ibb.co/PNS57Sg/womens-watches2.jpg",
+    product_name: "Rose Gold-Tone Bracelet Watch",
+    product_desc: "",
+    product_price: "24.99",
+    category: "Women Watches",
+    category_id: "17",
+  },
+  {
+    id: "92",
+    product_img: "https://i.ibb.co/r29qp6b/womens-watches5.jpg",
+    product_name: "Jesse Stainless Steel Bracelet Watch 34mm",
+    product_desc: "",
+    product_price: "45.99",
+    category: "Women Watches",
+    category_id: "17",
+  },
+  {
+    id: "93",
+    product_img: "https://i.ibb.co/FhZjqsF/womens-watches3.jpg",
+    product_name: "Evil Eye Gold-Tone Watch",
+    product_desc: "",
+    product_price: "59.99",
+    category: "Women Watches",
+    category_id: "17",
+  },
+  {
+    id: "94",
+    product_img: "https://i.ibb.co/Gtq83mJ/womens-watches4.jpg",
+    product_name: "Mini Leather Strap Watch",
+    product_desc: "",
+    product_price: "59.99",
+    category: "Women Watches",
+    category_id: "17",
+  },
+  {
+    id: "95",
+    product_img: "https://i.ibb.co/Y28H477/womens-bag1-brown.jpg",
+    product_name: "Camille Satchel",
+    product_desc: "",
+    product_price: "35.99",
+    category: "Women Bags",
+    category_id: "18",
+  },
+  {
+    id: "96",
+    product_img: "https://i.ibb.co/T8KR00C/womens-bags2.jpg",
+    product_name: "Marybelle Satchel",
+    product_desc: "",
+    product_price: "40.99",
+    category: "Women Bags",
+    category_id: "18",
+  },
+  {
+    id: "97",
+    product_img: "https://i.ibb.co/yNdJVpC/womens-bags3.jpg",
+    product_name: "Marybelle Signature Satchel",
+    product_desc: "",
+    product_price: "39.99",
+    category: "Women Bags",
+    category_id: "18",
+  },
+  {
+    id: "98",
+    product_img: "https://i.ibb.co/Rv89gN0/womens-bags4.jpg",
+    product_name: "Jessie Large Flap Leather Shoulder Bag",
+    product_desc: "",
+    product_price: "30.99",
+    category: "Women Bags",
+    category_id: "18",
+  },
+  {
+    id: "99",
+    product_img: "https://i.ibb.co/TbNgqph/mens-watches1.jpg",
+    product_name: "The Minimalist Brown Leather Strap Watch 44mm",
+    product_desc: "",
+    product_price: "24.99",
+    category: "Men Watches",
+    category_id: "19",
+  },
+  {
+    id: "100",
+    product_img: "https://i.ibb.co/b5dbPXM/mens-watches2.jpg",
+    product_name: "Chronograph Chief Black Watch",
+    product_desc: "",
+    product_price: "59.99",
+    category: "Men Watches",
+    category_id: "19",
+  },
+  {
+    id: "101",
+    product_img: "https://i.ibb.co/wKG7RxY/mens-watches3.jpg",
+    product_name: "Chronograph Stainless Steel Watch",
+    product_desc: "",
+    product_price: "59.99",
+    category: "Men Watches",
+    category_id: "19",
+  },
+  {
+    id: "102",
+    product_img: "https://i.ibb.co/pZsZjKx/mens-watches6.jpg",
+    product_name: "Citizen Promaster Diver Mens Blue Strap Watch\r\n",
+    product_desc: "",
+    product_price: "124.99",
+    category: "Men Watches",
+    category_id: "19",
+  },
+  {
+    id: "103",
+    product_img: "https://i.ibb.co/1Q4W0Vm/mens-bags1.jpg",
+    product_name: "Slingpack",
+    product_desc: "",
+    product_price: "60.99",
+    category: "Men Bags",
+    category_id: "20",
+  },
+  {
+    id: "104",
+    product_img: "https://i.ibb.co/fp96vCn/mens-bags2.jpg",
+    product_name: "Expandable Waist Pack",
+    product_desc: "",
+    product_price: "59.99",
+    category: "Men Bags",
+    category_id: "20",
+  },
+  {
+    id: "105",
+    product_img: "https://i.ibb.co/X7jzmV0/mens-bags3.jpg",
+    product_name: "Hoops Elite Pro Backpack",
+    product_desc: "",
+    product_price: "59.99",
+    category: "Men Bags",
+    category_id: "20",
+  },
+  {
+    id: "106",
+    product_img: "https://i.ibb.co/xgYVg6D/mens-bags4.jpg",
+    product_name: "Alexander Backpack",
+    product_desc: "",
+    product_price: "30.99",
+    category: "Men Bags",
+    category_id: "20",
+  },
+  {
+    id: "107",
+    product_img:
+      "https://cdn.suitdirect.co.uk/upload/siteimages/large/ar23107mj_170_c.jpg",
+    product_name: "Slim Fit Maverick Navy Herringbone Suit",
+    product_desc:
+      "Contemporary design meets heritage influence with Antique Rogue. Designed for the true trendsetter, an eye-catching colour palette spans across checked fabrics, bright plaids, and textures that elevate suits, shirts, and more. Antique Rogue’s unique suits combine legendary British tailoring with distinctive styling, coming together to create a timeless range that can be dressed up or down.",
+    product_price: "430.00",
+    category: "Men Suits",
+    category_id: "9",
+  },
+  {
+    id: "108",
+    product_img: "img-66d75298d14dd2.54656557.png",
+    product_name: "White T-shirt",
+    product_desc:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris volutpat commodo ultrices. Vivamus ut mauris sed lorem bibendum eleifend a vitae velit. Nunc pretium est a turpis accumsan mattis. Nunc ut libero in tortor viverra maximus et sit amet enim. Praesent facilisis mi eget arcu pretium, eget pellentesque purus volutpat.",
+    product_price: "10.99",
+    category: "Men T-Shirts",
+    category_id: "8",
+  },
+  {
+    id: "109",
+    product_img: "img-66d753fea5fa69.59880247.png",
+    product_name: "White T-shirt",
+    product_desc:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris volutpat commodo ultrices. Vivamus ut mauris sed lorem bibendum eleifend a vitae velit. Nunc pretium est a turpis accumsan mattis. Nunc ut libero in tortor viverra maximus et sit amet enim. Praesent facilisis mi eget arcu pretium, eget pellentesque purus volutpat.",
+    product_price: "10.99",
+    category: "Men T-Shirts",
+    category_id: "8",
+  },
+];
+
+const paginationELement = document.querySelector(".pagination");
+const list = document.querySelector(".list");
+const itemsPerPage = 6; // Number of items to display per page
+let currentPage = 1; // Current page number
+
+function filterByCategory(
+  items,
+  category1,
+  category2,
+  category3,
+  category4,
+  category5
+) {
+  return items.filter(
+    (item) =>
+      item.category === category1 ||
+      item.category === category2 ||
+      item.category === category3 ||
+      item.category === category4 ||
+      item.category === category5
+  );
+}
+
+function paginate(items, page, perPage) {
+  const startIndex = (page - 1) * perPage;
+  const endIndex = startIndex + perPage;
+  return items.slice(startIndex, endIndex);
+}
+
+function renderItems(items, page) {
+  const startIndex = (page - 1) * itemsPerPage;
+  const endIndex = startIndex + itemsPerPage;
+  const itemsToDisplay = items.slice(startIndex, endIndex);
+  console.log(startIndex);
+  console.log(endIndex);
+  console.log(itemsToDisplay);
+
+  const container = document.querySelector(".list");
+  container.innerHTML = ""; // Clear existing items
+
+  itemsToDisplay.forEach((item) => {
+    console.log(item);
+
+    let itemElement = document.createElement("div");
+    itemElement.classList.add("col-lg-4", "col-md-4", "col-sm-12", "product");
+    itemElement.innerHTML = `
+        <div class="card mb-5">
+          <a class="text-dark" href="#">
+            <img
+              src="${item.product_img}"
+              class="img-fluid w-100 product-img d-block"
+              alt="product-img"
+            />
+          </a>
+          <div class="card-section text-center">
+            <a class="text-dark" href="#">${item.product_name}</a>
+            <p class="product-price">$${item.product_price}</p>
+            <span class="btn btn-dark d-block add-to-cart">Add To Cart</span>
+          </div>
+    </div>`;
+    console.log(itemElement);
+
+    container.appendChild(itemElement);
+  });
+
+  const add_to_cart = document.getElementsByClassName("add-to-cart");
+  const products = [];
+
+  for (var i = 0; i < add_to_cart.length; i++) {
+    let cartBtn = add_to_cart[i];
+    cartBtn.addEventListener("click", function () {
+      // console.log(event.target.parentElement.children[0].textContent);
+      // console.log(event.target.parentElement.parentElement.children[0].children[0].src);
+      // console.log(event.target.parentElement.children[1].textContent);
+      let cleanedPrice = event.target.parentElement.children[1].textContent;
+      cleanedPrice = cleanedPrice.replace(/[^0-9.]/g, "");
+
+      let product = {
+        image:
+          event.target.parentElement.parentElement.children[0].children[0].src,
+        name: event.target.parentElement.children[0].textContent,
+        price: cleanedPrice,
+        totalPrice: parseFloat(cleanedPrice),
+        quantity: 1,
+      };
+      // console.log(product);
+      addItemToLocal(product);
+    });
+  }
+
+  function addItemToLocal(product) {
+    let cartItem = JSON.parse(localStorage.getItem("prdInCart"));
+    if (cartItem === null) {
+      products.push(product);
+      localStorage.setItem("prdInCart", JSON.stringify(products));
+      // console.log(cartItem);
+    } else {
+      cartItem.forEach((item) => {
+        if (product.name == item.name) {
+          product.quantity = item.quantity += 1;
+          product.totalPrice = item.totalPrice += product.totalPrice;
+        } else {
+          products.push(item);
+        }
+      });
+      products.push(product);
+      window.location.href = "/cart";
+    }
+    localStorage.setItem("prdInCart", JSON.stringify(products));
+  }
+
+  function getCartItemCount() {
+    const cart = JSON.parse(localStorage.getItem("prdInCart")) || [];
+    // return cart.length;
+    let counter = document.querySelector(".counter");
+    let mobilecounter = document.querySelector(".mobile-view-counter");
+    counter.textContent = cart.length;
+    mobilecounter.textContent = cart.length;
+  }
+}
+
+function renderPagination(totalPages) {
+  const paginationContainer = document.querySelector(".pagination");
+  paginationContainer.innerHTML = ""; // Clear previous buttons
+
+  for (let i = 1; i <= totalPages; i++) {
+    const button = document.createElement("button");
+    button.textContent = i;
+    button.addEventListener("click", () => {
+      preloader.style.display = "flex"; // Show preloader
+      content.style.display = "none"; // Hide content initially
+
+      currentPage = i;
+
+      renderItems(filteredData, currentPage);
+      // Simulate an asynchronous operation
+      setTimeout(() => {
+        preloader.style.display = "none"; // Hide preloader
+        content.style.display = "block"; // Show content
+      }, 2000); // Replace with actual asynchronous task
+    });
+    paginationContainer.appendChild(button);
+  }
+}
+
+const filteredData = filterByCategory(
+  data,
+  "Men T-Shirts",
+  "Men Jackets",
+  "Men Pants",
+  "Men Sneakers",
+  "Men Suits"
+); // Filter by a category
+const paginatedItems = paginate(filteredData, currentPage, itemsPerPage);
+
+renderItems(filteredData, currentPage);
+renderPagination(Math.ceil(filteredData.length / itemsPerPage));

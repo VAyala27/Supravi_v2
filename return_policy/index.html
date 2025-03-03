@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, minimum-scale=1"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+      integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+      integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+      integrity="sha256-HAaDW5o2+LelybUhfuk0Zh2Vdk8Y2W2UeKmbaXhalfA="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../css/styles.css" />
+    <title>Supravi</title>
+  </head>
+
+  <nav class="navbar navbar-expand-xl navbar-light bg-white border-bottom">
+    <div class="container">
+      <a href="/home" class="navbar-brand">Supravi</a>
+      <button
+        class="navbar-toggler"
+        data-toggle="collapse"
+        data-target="#navbarCollapse"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="btn-group user-menu mobile-view">
+        <button
+          class="btn btn-sm dropdown-toggle mr-3 bg-white border-none"
+          type="button"
+          data-toggle="dropdown"
+          aria-haspopup="true"
+          aria-expanded="true"
+        >
+          <i class="far fa-user"></i>
+        </button>
+        <div class="dropdown-menu">
+          <a href="/sign_up" class="text-center text-dark d-block">Sign Up</a>
+          <br />
+          <a href="/login" class="text-center text-dark d-block">Login</a>
+        </div>
+      </div>
+      <a href="/cart" id="shopping-cart" class="mr-3 mobile-view"
+        ><i class="fas fa-shopping-cart"></i>
+        <span class="counter">0</span>
+      </a>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item dropdown menu-area">
+            <a
+              href="#"
+              class="nav-link dropdown-toggle"
+              id="mega-one"
+              data-toggle="dropdown"
+              >Men</a
+            >
+            <div class="dropdown-menu mega-area" aria-labelledby="mega-one">
+              <div class="row">
+                <div class="col-sm-6 col-lg-3">
+                  <h5>Men's Top</h5>
+                  <a href="/all_men_clothing" class="dropdown-item"
+                    >All Men's Clothing</a
+                  >
+                  <a href="/men_shirts" class="dropdown-item">T-shirts</a>
+                  <a href="/men_suits" class="dropdown-item">Suits</a>
+                  <a href="/men_sweaters" class="dropdown-item"
+                    >Hoodies & Sweaters</a
+                  >
+                  <a href="/men_jackets" class="dropdown-item">Jackets</a>
+                </div>
+                <div class="col-sm-6 col-lg-3">
+                  <h5>Men's Bottom</h5>
+                  <a href="/men_pants" class="dropdown-item">Pants</a>
+                  <a href="/men_shorts" class="dropdown-item">Shorts</a>
+                </div>
+                <div class="col-sm-6 col-lg-3">
+                  <img
+                    src="https://u.cubeupload.com/lit_flame/mensoutfitsmenu3.jpg"
+                    class="img-fluid mb-3"
+                    alt=""
+                  />
+                  <img
+                    src="https://u.cubeupload.com/lit_flame/mensoutfitsmenu2.jpg"
+                    class="img-fluid"
+                    alt=""
+                  />
+                </div>
+                <div class="col-sm-6 col-lg-3">
+                  <img
+                    src="https://u.cubeupload.com/lit_flame/mensoutfitsmenu4.jpg"
+                    class="img-fluid mb-3"
+                    alt=""
+                  />
+                  <img
+                    src="https://u.cubeupload.com/lit_flame/mensoutfitsmenu1.jpg"
+                    class="img-fluid"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+          </li>
+
+          <li class="nav-item dropdown menu-area">
+            <a
+              href="#"
+              class="nav-link dropdown-toggle"
+              id="mega-one"
+              data-toggle="dropdown"
+              >Women</a
+            >
+            <div class="dropdown-menu mega-area" aria-labelledby="mega-one">
+              <div class="row">
+                <div class="col-sm-6 col-lg-3">
+                  <h5>Women's Tops</h5>
+                  <a href="/all_women_clothing" class="dropdown-item"
+                    >All Women's Clothing</a
+                  >
+                  <a href="/women_dresses" class="dropdown-item">Dresses</a>
+                  <a href="/women_tops" class="dropdown-item">Tops</a>
+                  <a href="/women_suits" class="dropdown-item">Suits</a>
+                  <a href="/women_sweaters" class="dropdown-item">Sweaters</a>
+                  <a href="/women_jackets" class="dropdown-item">Jackets</a>
+                </div>
+                <div class="col-sm-6 col-lg-3">
+                  <h5>Women's Bottoms</h5>
+
+                  <a href="/women_pants" class="dropdown-item">Pants</a>
+                  <a href="/women_skirts" class="dropdown-item">Skirts</a>
+                </div>
+                <div class="col-sm-6 col-lg-3">
+                  <img
+                    src="https://u.cubeupload.com/lit_flame/womensoutfitsmenu3.jpg"
+                    class="img-fluid mb-3"
+                    alt=""
+                  />
+                  <img
+                    src="https://u.cubeupload.com/lit_flame/womensoutfitsmenu4.jpg"
+                    class="img-fluid"
+                    alt=""
+                  />
+                </div>
+                <div class="col-sm-6 col-lg-3">
+                  <img
+                    src="https://u.cubeupload.com/lit_flame/womensoutfitsmenu1.png"
+                    class="img-fluid mb-3"
+                    alt=""
+                  />
+                  <img
+                    src="https://u.cubeupload.com/lit_flame/womensoutfitsmenu2.jpg"
+                    class="img-fluid"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+          </li>
+
+          <li class="nav-item dropdown menu-area">
+            <a
+              href="#"
+              class="nav-link dropdown-toggle"
+              id="mega-one"
+              data-toggle="dropdown"
+              >Shoes & Accessories</a
+            >
+            <div class="dropdown-menu mega-area" aria-labelledby="mega-one">
+              <div class="row">
+                <div class="col-sm-6 col-lg-3">
+                  <h5>Women Shoes</h5>
+                  <a href="/women_boots" class="dropdown-item">Boots</a>
+                  <a href="/women_heels" class="dropdown-item">Heels</a>
+                  <br />
+                  <h5>Men's Shoes</h5>
+                  <a href="/men_sneakers" class="dropdown-item">Sneakers</a>
+                </div>
+                <div class="col-sm-6 col-lg-3">
+                  <h5>Women Accessories</h5>
+                  <a href="/women_watches" class="dropdown-item">Watches</a>
+                  <a href="/women_bags" class="dropdown-item">Bags</a>
+                  <br />
+                  <h5>Men Accessories</h5>
+                  <a href="/men_watches" class="dropdown-item">Watches</a>
+                  <a href="/men_bags" class="dropdown-item">Bags</a>
+                </div>
+
+                <div class="col-sm-6 col-lg-3">
+                  <img
+                    src="https://u.cubeupload.com/lit_flame/shoesaccessoriesmenu.jpg"
+                    class="img-fluid mb-3"
+                    alt=""
+                  />
+                  <img
+                    src="https://u.cubeupload.com/lit_flame/374shoesaccessoriesmenu.jpg"
+                    class="img-fluid"
+                    alt=""
+                  />
+                </div>
+                <div class="col-sm-6 col-lg-3">
+                  <img
+                    src="https://u.cubeupload.com/lit_flame/shoesaccessoriesmenu.jpeg"
+                    class="img-fluid mb-3"
+                    alt=""
+                  />
+                  <img
+                    src="https://u.cubeupload.com/lit_flame/c72shoesaccessoriesmenu.jpg"
+                    class="img-fluid"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+
+        <ul
+          class="ml-auto mt-3 icons d-flex justify-content-center align-items-center"
+        >
+          <form
+            action="/search"
+            method="POST"
+            name="search"
+            class="form-inline"
+          >
+            <div class="form-group">
+              <input
+                class="form-control mr-2"
+                type="search"
+                name="search_bar"
+                placeholder="Search"
+                id="search_item"
+                aria-label="Search"
+              />
+              <button
+                class="btn btn-outline-dark my-2 my-sm-0 mr-4"
+                type="submit"
+                name="search_button"
+              >
+                Search
+              </button>
+            </div>
+          </form>
+
+          <div class="btn-group mobile-none">
+            <button
+              class="btn btn-sm dropdown-toggle mr-3 bg-white border-none"
+              type="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="true"
+            >
+              <i class="far fa-user"></i>
+            </button>
+            <div class="dropdown-menu">
+              <a href="/sign_up" class="text-center text-dark d-block"
+                >Sign Up</a
+              >
+              <br />
+              <a href="/login" class="text-center text-dark d-block">Login</a>
+            </div>
+          </div>
+          <a href="/cart" id="shopping-cart" class="mr-3 mobile-none"
+            ><i class="fas fa-shopping-bag"></i>
+            <span class="counter">0</span>
+          </a>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <main>
+    <div id="return_policy" class="py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 col-md-12 col-sm-12">
+            <h1 class="text-center mb-5">Return Policy</h1>
+          </div>
+        </div>
+        <h4>What is our return policy?</h4>
+        <p>
+          Purchases made in store or at Supravi.com are eligible for a return or
+          exchange with a receipt within 60 days of the original purchase date.
+          Refunds will be issued on the original form of payment or
+        </p>
+
+        <h4>What can’t be returned?</h4>
+        <p>
+          Gift Cards, Monogrammed Items, Personalized Items, Altered Items, Body
+          Jewelry, Face Masks, Ear Piercing Kits, and Services.
+        </p>
+
+        <h4>How do I return an in-store purchase with a receipt?</h4>
+        <p>
+          We gladly accept most returns at any of our Supravi stores. Simply
+          bring your item(s) along with your receipt within 60 days of the
+          purchase date and an associate will be happy to assist with your
+          return.
+        </p>
+
+        <h4>
+          How long does it take for a refund to appear on Bank Card or Debit
+          Card?
+        </h4>
+        <p>
+          For information about refunds to a third party credit card, contact
+          your financial institution. It typically takes 7-10 days to post to
+          your account from the day the merchandise was received.
+        </p>
+
+        <h4>Do you have a Price Match Guarantee?</h4>
+        <p>
+          Yes, we offer our price match guarantee to ensure that you always find
+          value in your purchase. Within 14 days after your purchase, if you
+          find a lower, currently advertised price on an identical item at a
+          competitor, just bring the ad to a store and we’ll match that price
+          and refund you the difference.
+        </p>
+      </div>
+    </div>
+  </main>
+
+  <footer id="main-footer" class="bg-black">
+    <div class="container">
+      <div class="row list-container text-white">
+        <div class="col-sm-3">
+          <ul>
+            <h4>Catergories</h4>
+            <ul class="list">
+             <li class="nav-item"><a href="/all_women_clothing">Women</a></li>
+                        <li class="nav-item"><a href="/all_men_clothing">Men</a></li>
+            </ul>
+          </ul>
+        </div>
+
+        <div class="col-sm-3">
+          <ul>
+            <h4>Help</h4>
+            <ul class="list">
+              <li class="nav-item"><a href="/about">About Us</a></li>
+              <li class="nav-item">
+                <a href="/return_policy">Return Policy</a>
+              </li>
+              <li class="nav-item">
+                <a href="/shipping_information">Shipping Information</a>
+              </li>
+              <li class="nav-item"><a href="/faq">FAQs</a></li>
+              <li class="nav-item">
+                <a href="/terms_service">Terms Of Service</a>
+              </li>
+              <li class="nav-item"><a href="/contact">Contact</a></li>
+            </ul>
+          </ul>
+        </div>
+
+        <div class="col-sm-3">
+          <ul>
+            <h4>Get In Touch</h4>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure,
+              excepturi.
+            </p>
+            <ul class="social-media d-flex">
+              <li class="nav-item">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+              </li>
+              <li class="nav-item">
+                <a href="#"><i class="fab fa-twitter"></i></a>
+              </li>
+              <li class="nav-item">
+                <a href="#"><i class="fab fa-instagram"></i></a>
+              </li>
+            </ul>
+          </ul>
+        </div>
+
+        <div class="col-sm-3">
+          <ul>
+            <h4>Newsletter</h4>
+            <input
+              type="email"
+              name="newsletter-email"
+              id="newsletter-email"
+              placeholder="Email..."
+              size="30"
+            />
+            <button class="btn btn-primary d-block w-50 mx-auto mt-5 rounded">
+              Subscribe
+            </button>
+          </ul>
+        </div>
+        <div class="col-sm-12">
+          <p class="font-size-16 text-center">
+            &copy; VictorAyala <span id="year"></span>
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../js/jquery.js"></script>
+  <script src="../js/bootstrap.min.js"></script>
+  <script src="../js/app.js"></script>
+</html>
